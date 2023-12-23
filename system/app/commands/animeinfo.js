@@ -19,8 +19,11 @@ export const execCommand = async function({api, event, key, kernel, umaru, args,
   let text = args.join(" ");
   await umaru.createJournal(event);
   let info = await kernel.read(["animeinfo"], {key: key, search: text});
-  if(typeof info === "string") return api.sendMessage("⚠️ "+data, event.threadID, event.messageID);
    let data = info[0]
+  if(typeof info === "string") {
+    await umaru.deleteJournal(event);
+    return api.sendMessage("⚠️ "+info, event.threadID, event.messageID);
+  }
   let msg = (await translate(`🌸 Title: {{1}}\n🌸 Overview: {{2}}\n🌸 Release date: {{3}}\n🌸 Rating: {{4}}`, event, null, true)).replace("{{1}}", data.title).replace("{{2}}", data.shortDescription).replace("{{3}}", data.startDate).replace("{{4}}", data.score);
   try {
   let img = (await axios.get(data.thumbnail, {responseType: "stream"})).data;

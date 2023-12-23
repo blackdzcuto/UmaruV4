@@ -10,7 +10,7 @@ export const setup = {
 export const exec = async function({api, event, key, umaru, readImage, keyGenerator, kernel, Users, Threads}) {
   let getKey = keyGenerator();
   let ownId = api.getCurrentUserID();
-  if(event.logMessageData.addedParticipants.some(a => a.userFbId == ownId)) {
+  if(umaru.data['AutoLeave']['Mode'] == false && event.logMessageData.addedParticipants.some(a => a.userFbId == ownId)) {
     let msg = `❑ Prefix: ${umaru.config.prefix}\n❑ Commands: ${umaru.client.allCommandsName.length}\n❑ Events: ${umaru.client.umaruEvents.length}\n❑ Users: ${umaru.allUserID.length}\n❑ Threads: ${umaru.allThreadID.length+umaru.allInactiveThreadID.length}\n\nThank you for using this bot, have fun using it.`;
     return api.sendMessage(msg, event.threadID);
   } else {
