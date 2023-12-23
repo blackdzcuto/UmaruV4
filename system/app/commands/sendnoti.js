@@ -12,7 +12,7 @@ export const setup = {
   isPrefix: true
 };
 export const domain = {"sendnoti": setup.name};
-export const execCommand = async function({api, event, args, Threads, umaru, Users,kernel, keyGenerator, usage}) {
+export const execCommand = async function({api, event, args, umaru, Users,kernel, keyGenerator, usage, prefix}) {
   if(args.length === 0) return usage(this, prefix, event);
   let attachment = [];
   let attachmentPath = [];
