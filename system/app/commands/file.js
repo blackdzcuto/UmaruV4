@@ -16,6 +16,7 @@ export const execCommand = async function({api, event, args, umaru, usage, prefi
   let text = args.splice(1).join(" ");
   switch (args[0].toLowerCase()) {
     case "delete":
+      if(text === '') return usage(this, prefix, event);
   if(fs.existsSync(umaru.mainPath+'/app/commands/'+text)) {
       fs.removeSync(umaru.mainPath+'/app/commands/'+text);
         return api.sendMessage(`✅ ${text} was successfully deleted.`, event.threadID, event.messageID);
