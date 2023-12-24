@@ -21,8 +21,8 @@
         <li><a href="#-enabling-and-disabling-prefixes">🛠 Enabling and Disabling Prefixes</a></li>
         <li><a href="#-journaling-mechanism">📝 Journaling Mechanism</a></li>
         <li><a href="#-autoleave-inactive">⌛ Autoleave inactive</a></li>
-        <li><a href="#-support-130+-languages">🌐 Support 130+ languages</a></li>
-        <li><a href="#-detect-130+-languages-with-timezone">🌐 Detect 130+ languages with timezone</a></li>
+        <li><a href="#-support-130%2B-languages">🌐 Support 130+ languages</a></li>
+        <li><a href="#-detect-130%2B-languages-with-timezone">🌐 Detect 130+ languages with timezone</a></li>
         <li><a href="#-dashboard">💻 Dashboard</a></li>
         
 
