@@ -14,10 +14,11 @@ export const setup = {
 export const domain = {"help": setup.name}
 export const execCommand = async function({api, event, args, umaru, prefix}) {
   let similarity = {accuracy: 0};
+  const allCommands = Array.from(umaru.umaruCommand.keys());
   let text = args.join(" ");
   let c = text.replace(/\[|\]/g, "");
   if(c) {
-    similarity = words.predict(c.toLowerCase(), umaru.client.allCommandsName);
+    similarity = words.predict(c.toLowerCase(), allCommands);
   };
   let p = text.match(/\b\d+\b/g);
    if(args.length === 0) {
@@ -34,15 +35,16 @@ export const execCommand = async function({api, event, args, umaru, prefix}) {
     else permission = "Anyone";
     let use = "";
     let usa = umaru.usages.get(similarity.data);
+    let prefixes = (umaru.client.noPrefix.includes(similarity.data))?"":prefix;
     if(Array.isArray(usa)) {
     for(const data of usa) {
-      use += `     •  ${prefix}${similarity.data} ${data}\n`
+      use += `     •  ${prefixes}${similarity.data} ${data}\n`
     }
       if(use === "")   {
-        use += `     •  ${prefix}${similarity.data}\n`;
+        use += `     •  ${prefixes}${similarity.data}\n`;
       }
   } else {
-    use = `     •  ${prefix}${similarity.data} `+ usa;
+    use = `     •  ${prefixes}${similarity.data} `+ usa;
   }
   
    let screenshot = [];
@@ -64,23 +66,25 @@ export const execCommand = async function({api, event, args, umaru, prefix}) {
     let num = 10
     let i = 1 + page * num - 10;
     let cut = page * num - num;
-    const commands = umaru.client.allCommandsName.slice(cut, cut + num)
+    const commands = allCommands.slice(cut, cut + num)
     if(commands.length === 0) return api.sendMessage(`Sorry there is no page ${page}.`, event.threadID, event.messageID)
     for (const item of commands) {
       let usage = umaru.usages.get(item);
+      let prefixes = (umaru.client.noPrefix.includes(item))?"":prefix;
       if(Array.isArray(usage)) {
           usage = usage[0];
       } else if(usage === "") {
         usage = "";
       }
-      items += `『 ${i++} 』 ${prefix}${umaru.name.get(item)} ${usage}\n`;
+      items += `『 ${i++} 』 ${prefixes}${umaru.name.get(item)} ${usage}\n`;
     }
-    let rand = [`» Use ${prefix}${this.setup.name} [command name] to display the details of the command`, `» Use ${prefix}${this.setup.name} [page number] to display the information on the additional pages`, `» Use ${prefix}${this.setup.name} all to display all the details of the command`];
-    return api.sendMessage(`${items}\n» Page: ${page}/${Math.ceil(umaru.client.allCommandsName.length / num)}\n${rand[Math.floor(Math.random() * rand.length)]}.`, event.threadID, event.messageID)
+    let prefixes = (umaru.client.noPrefix.includes(this.setup.name))?"":prefix;
+    let rand = [`» Use ${prefixes}${this.setup.name} [command name] to display the details of the command`, `» Use ${prefixes}${this.setup.name} [page number] to display the information on the additional pages`, `» Use ${prefix}${this.setup.name} all to display all the details of the command`];
+    return api.sendMessage(`${items}\n» Page: ${page}/${Math.ceil(allCommands.length / num)}\n${rand[Math.floor(Math.random() * rand.length)]}.`, event.threadID, event.messageID)
     } else if(c == "all") {
       let msg = "";
       let mes = {}
-      for (const item of umaru.client.allCommandsName) {
+      for (const item of allCommands) {
         if(!mes[umaru.category.get(item).toLowerCase()]) {
           mes[umaru.category.get(item).toLowerCase()] = [`${umaru.name.get(item)}`]
         } else {

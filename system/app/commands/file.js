@@ -27,7 +27,7 @@ export const execCommand = async function({api, event, args, umaru, usage, prefi
     case "list":
       let msg = "📁 commands\n/app/commands\n\n";
       let la = await fs.promises.readdir(umaru.mainPath+'/app/commands');
-       let pages = parseInt(args.splice(1).join(" ").match(/\b\d+\b/g)) || 1;
+      let pages = parseInt(text.match(/\b\d+\b/g)) || 1;
       let page = 40;
       let data = [];
       let inf = "";
