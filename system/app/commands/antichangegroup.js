@@ -1,7 +1,7 @@
 export const setup = {
   name: "antichangegroup",
   version: "40.0.0",
-  permission: 2,
+  permission: "GroupAdmin",
   creator: "John Lester",
   description: "Prevent change nickname, photo, emoji, theme, name",
   category: "General",
