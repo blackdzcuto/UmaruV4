@@ -1,1 +1,166 @@
-function _0x3beb(){const t=["complete","darkModes","</textarea>\n    </div>\n    </div>\n  </div>\n          ","createElement","126BnwWKL","11538621vJHOAm","DisableCommands","data-bs-theme","find",'{}.constructor("return this")( )',"while (true) {}","; expires=Fri, 31 Dec 9999 23:59:59 GMT","setInterval","mode","lib/dark.css",'\n          <div>\n  <div class="commands">\n    <div class="commandsname shadow">\n      <p class="filename mostContentColor" style="font-family: \'Kanit\', sans-serif;">',"11240004rTbwIm","fa-solid fa-sun","opacity","key=","json","length","location","stringify","nam","filename",'" onchange="switchData(\'',"fire","apply","isConfirmed","return (function() ","pageLoader","/commands.html","_blank","6262472fTBisL","block","info","209006zjxjWB","lib/light.css","fa-solid fa-moon",'\')">\n        </div>\n        <textarea class="description mostContentColor" style="width: 50vmin; border-radius: 10px;" id="tttt" readonly>',"function *\\( *\\)","counter","class","7DZbqPI","DarkAndLight",'</p>\n      <div class="form-check form-switch" id="trueorfalse">\n        <input class="form-check-input" type="checkbox" role="switch" id="',"itemss","commandsevents","cookie","warning","33RQoqMz","UmaruTheme","checked","index.html","/graphql","style","light","startsWith","10wnXHJJ","href","split","setAttribute","stateObject","catch","token","1199097thucyg","push","constructor","success","getElementById","src","call","profile","head","none","filter","display","gger","debu","init","color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);","commands","parse","test","lightModes","description","then","\\+\\+ *(?:[a-zA-Z_$][0-9a-zA-Z_$]*)","innerHTML","stylesheet","allright","214630sjoVTf","7FVgdKO","https://facebook.com/","1494096OvzEDU","action","realname","application/json","key","rel","You must login first","POST"];return(_0x3beb=function(){return t})()}const _0x121508=_0x29cd;!function(t,e){const n=_0x29cd,o=_0x3beb();for(;;)try{if(888873===-parseInt(n(485))/1*(parseInt(n(532))/2)+-parseInt(n(458))/3+parseInt(n(487))/4+-parseInt(n(484))/5*(-parseInt(n(499))/6)+-parseInt(n(539))/7*(parseInt(n(529))/8)+parseInt(n(500))/9*(-parseInt(n(554))/10)+-parseInt(n(546))/11*(-parseInt(n(511))/12))break;o.push(o.shift())}catch(t){o.push(o.shift())}}();let idinpro,restarts=0;function changeTheme(t){const e=_0x29cd;let n=e(552)==t?e(552):"dark",o={data:tokenizer,mode:n},s=JSON[e(518)](o);document[e(544)]=e(514)+s+e(506),restarts+=1,restarts>=3&&(window[e(517)][e(555)]=e(527)),document[e(462)](e(547))[e(555)]=e(552)==t?e(533):e(509),"light"==n?(document[e(462)]("DarkAndLight")[e(557)]("class",e(512)),document[e(462)](e(477)).setAttribute(e(551),e(473)),document.getElementById("darkModes")[e(557)]("style","")):(document[e(462)](e(540))[e(557)](e(538),e(534)),document[e(462)](e(477)).setAttribute(e(551),""),document.getElementById(e(496)).setAttribute(e(551),e(473))),document.getElementById("changeTheme")[e(557)](e(502),n)}function profileAccount(){const t=_0x29cd;window.open(t(486)+idinpro,t(528))}document.onreadystatechange=async function(){const t=_0x29cd;t(495)===document.readyState&&fetch(t(550),{method:t(494),headers:{"Content-Type":t(490)},body:JSON[t(518)]({token:tokenizer,tokenizer:t(560)})}).then((e=>e[t(515)]()))[t(479)]((async e=>{const n=t;if(1!=e[n(461)])return Swal[n(522)]("Access Failed",n(493),n(545))[n(479)]((t=>{const e=n;1==t[e(524)]||t.isDismissed,window[e(517)].href=e(549)}));{document[n(462)]("dp")[n(463)]=e[n(531)][n(465)],document[n(462)]("dps")[n(463)]=e.info.profile,idinpro=e[n(531)].id,document.getElementById(n(519))[n(481)]=e[n(531)][n(489)];let t=JSON[n(475)](document[n(544)][n(556)]("; ")[n(503)]((t=>t[n(553)](n(491))))[n(556)](" ")[0][n(556)](" ")[0].replace(n(514),""))[n(508)],o=n(552)==t?"light":"dark",s=document[n(498)]("link");s.href="light"==t?n(533):"lib/dark.css",s[n(492)]=n(482),s.id=n(547),document[n(466)].appendChild(s),n(552)==t?(document[n(462)]("DarkAndLight")[n(557)](n(538),n(512)),document[n(462)](n(477))[n(557)](n(551),n(473))):(document[n(462)](n(540)).setAttribute("class",n(534)),document[n(462)]("darkModes").setAttribute("style",n(473))),document[n(462)]("changeTheme").setAttribute(n(502),o);let i=document[n(462)](n(526));await new Promise((t=>setTimeout(t,1e3)));for(let t=9;t>=0;t--)i[n(551)][n(513)]="0."+t,await new Promise((t=>setTimeout(t,20)));i[n(551)][n(469)]=n(467),document[n(462)]("content")[n(551)][n(469)]=n(530)}document[n(462)]("socialmedia").innerHTML+=e.sc,document[n(462)](n(483)).innerHTML+=e.allright}))[t(559)]((t=>{}))};let config=document[_0x121508(462)](_0x121508(542));function _0x29cd(t,e){const n=_0x3beb();return _0x29cd=function(t,e){return n[t-=458]},_0x29cd(t,e)}!function(){const t=_0x121508;(function(){const t=_0x29cd;let e;try{e=Function(t(525)+t(504)+");")()}catch(t){e=window}return e})()[t(507)](_0x24f198,1e3)}();var disableCommands=[];function getInfo(){const t=_0x121508,e=function(){let t=!0;return function(e,n){const o=t?function(){if(n){const t=n[_0x29cd(523)](e,arguments);return n=null,t}}:function(){};return t=!1,o}}();(function(){e(this,(function(){const t=_0x29cd,e=new RegExp(t(536)),n=new RegExp(t(480),"i"),o=_0x24f198(t(472));e[t(476)](o+"chain")&&n[t(476)](o+"input")?_0x24f198():o("0")}))()})(),fetch("/graphql",{method:"POST",headers:{"Content-Type":t(490)},body:JSON[t(518)]({token:tokenizer,tokenizer:t(543),type:t(474)})})[t(479)]((e=>e[t(515)]()))[t(479)]((e=>{const n=t;for(const t in e)n(501)!=t&&(e[n(501)].includes(e[t][n(520)])?(config[n(481)]+=n(510)+t+n(541)+e[t][n(520)]+n(521)+e[t].filename+n(535)+e[t][n(478)]+n(497),disableCommands[n(459)](e[t][n(520)]),document[n(462)](e[t][n(520)]).checked=!1):(config.innerHTML+='\n          <div>\n  <div class="commands">\n    <div class="commandsname shadow">\n      <p class="filename mostContentColor" style="font-family: \'Kanit\', sans-serif;">'+t+n(541)+e[t][n(520)]+'" onchange="switchData(\''+e[t][n(520)]+'\')" checked>\n        </div>\n        <textarea class="description mostContentColor" style="width: 50vmin; border-radius: 10px;" id="tttt" readonly>'+e[t].description+"</textarea>\n    </div>\n    </div>\n  </div>\n          ",document[n(462)](e[t].filename).checked=!0))}))[t(559)]((t=>{}))}function switchData(t){const e=_0x121508;if(1==document[e(462)](t)[e(548)]){let n=disableCommands[e(468)]((e=>e!==t));disableCommands=n}else disableCommands[e(459)](t);fetch("/graphql",{method:e(494),headers:{"Content-Type":e(490)},body:JSON[e(518)]({token:tokenizer,tokenizer:e(543),type:"savecommands",data:disableCommands})})[e(559)]((t=>{}))}function _0x24f198(t){function e(t){const n=_0x29cd;if("string"==typeof t)return function(t){}[n(460)](n(505)).apply(n(537));1!==(""+t/t)[n(516)]||t%20==0?function(){return!0}[n(460)]("debugger")[n(464)](n(488)):function(){return!1}.constructor(n(471)+n(470))[n(523)](n(558)),e(++t)}try{if(t)return e;e(0)}catch(t){}}getInfo();
+let idinpro;
+let restarts = 0;
+function changeTheme(t) {
+  let n = t == "light" ? "light" : "dark";
+  let o = {
+    data: tokenizer,
+    mode: n
+  };
+  let s = JSON.stringify(o);
+  document.cookie = "key=" + s + "; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  restarts += 1;
+  if (restarts >= 3) {
+    window.location.href = "/commands.html";
+  }
+  document.getElementById("UmaruTheme").href = t == "light" ? "lib/light.css" : "lib/dark.css";
+  if (n == "light") {
+    document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-sun");
+    document.getElementById("lightModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+    document.getElementById("darkModes").setAttribute("style", "");
+  } else {
+    document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-moon");
+    document.getElementById("lightModes").setAttribute("style", "");
+    document.getElementById("darkModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+  }
+  document.getElementById("changeTheme").setAttribute("data-bs-theme", n);
+}
+function profileAccount() {
+  window.open("https://facebook.com/" + idinpro, "_blank");
+}
+document.onreadystatechange = async function () {
+  if (document.readyState === "complete") {
+    fetch("/graphql", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        token: tokenizer,
+        tokenizer: "token"
+      })
+    }).then(e => e.json()).then(async e => {
+      if (e.success != 1) {
+        return Swal.fire("Access Failed", "You must login first", "warning").then(t => {
+          if (t.isConfirmed != 1) {
+            t.isDismissed;
+          }
+          window.location.href = "index.html";
+        });
+      }
+      {
+        document.getElementById("dp").src = e.info.profile;
+        document.getElementById("dps").src = e.info.profile;
+        idinpro = e.info.id;
+        document.getElementById("nam").innerHTML = e.info.realname;
+        let t = JSON.parse(document.cookie.split("; ").find(t => t.startsWith("key")).split(" ")[0].split(" ")[0].replace("key=", "")).mode;
+        let o = t == "light" ? "light" : "dark";
+        let s = document.createElement("link");
+        s.href = t == "light" ? "lib/light.css" : "lib/dark.css";
+        s.rel = "stylesheet";
+        s.id = "UmaruTheme";
+        document.head.appendChild(s);
+        if (t == "light") {
+          document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-sun");
+          document.getElementById("lightModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+        } else {
+          document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-moon");
+          document.getElementById("darkModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+        }
+        document.getElementById("changeTheme").setAttribute("data-bs-theme", o);
+        let i = document.getElementById("pageLoader");
+        await new Promise(t => setTimeout(t, 1000));
+        for (let t = 9; t >= 0; t--) {
+          i.style.opacity = "0." + t;
+          await new Promise(t => setTimeout(t, 20));
+        }
+        i.style.display = "none";
+        document.getElementById("content").style.display = "block";
+      }
+      document.getElementById("socialmedia").innerHTML += e.sc;
+      document.getElementById("allright").innerHTML += e.allright;
+    }).catch(t => {});
+  }
+};
+let config = document.getElementById("itemss");
+(function () {
+  (function () {
+    let e;
+    try {
+      e = Function("return (function() {}.constructor(\"return this\")( ));")();
+    } catch (t) {
+      e = window;
+    }
+    return e;
+  })().setInterval(_0x24f198, 1000);
+})();
+var disableCommands = [];
+function getInfo() {
+  fetch("/graphql", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      token: tokenizer,
+      tokenizer: "commandsevents",
+      type: "commands"
+    })
+  }).then(e => e.json()).then(e => {
+    for (const t in e) {
+      if (t != "DisableCommands") {
+        if (e.DisableCommands.includes(e[t].filename)) {
+          config.innerHTML += "\n          <div>\n  <div class=\"commands\">\n    <div class=\"commandsname shadow\">\n      <p class=\"filename mostContentColor\" style=\"font-family: 'Kanit', sans-serif;\">" + t + "</p>\n      <div class=\"form-check form-switch\" id=\"trueorfalse\">\n        <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"" + e[t].filename + "\" onchange=\"switchData('" + e[t].filename + "')\">\n        </div>\n        <textarea class=\"description mostContentColor\" style=\"width: 50vmin; border-radius: 10px;\" id=\"tttt\" readonly>" + e[t].description + "</textarea>\n    </div>\n    </div>\n  </div>\n          ";
+          disableCommands.push(e[t].filename);
+          document.getElementById(e[t].filename).checked = false;
+        } else {
+          config.innerHTML += "\n          <div>\n  <div class=\"commands\">\n    <div class=\"commandsname shadow\">\n      <p class=\"filename mostContentColor\" style=\"font-family: 'Kanit', sans-serif;\">" + t + "</p>\n      <div class=\"form-check form-switch\" id=\"trueorfalse\">\n        <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"" + e[t].filename + "\" onchange=\"switchData('" + e[t].filename + "')\" checked>\n        </div>\n        <textarea class=\"description mostContentColor\" style=\"width: 50vmin; border-radius: 10px;\" id=\"tttt\" readonly>" + e[t].description + "</textarea>\n    </div>\n    </div>\n  </div>\n          ";
+          document.getElementById(e[t].filename).checked = true;
+        }
+      }
+    }
+  }).catch(t => {});
+}
+function switchData(t) {
+  if (document.getElementById(t).checked == 1) {
+    let n = disableCommands.filter(e => e !== t);
+    disableCommands = n;
+  } else {
+    disableCommands.push(t);
+  }
+  fetch("/graphql", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      token: tokenizer,
+      tokenizer: "commandsevents",
+      type: "savecommands",
+      data: disableCommands
+    })
+  }).catch(t => {});
+}
+function _0x24f198(t) {
+  function e(t) {
+    if (typeof t == "string") {
+      return function (t) {}.constructor("while (true) {}").apply("counter");
+    }
+    if (("" + t / t).length !== 1 || t % 20 == 0) {
+      (function () {
+        return true;
+      }).constructor("debugger").call("action");
+    } else {
+      (function () {
+        return false;
+      }).constructor("debugger").apply("stateObject");
+    }
+    e(++t);
+  }
+  try {
+    if (t) {
+      return e;
+    }
+    e(0);
+  } catch (t) {}
+}
+getInfo();
