@@ -1,1 +1,674 @@
-const _0x2d2e96=_0x3be7;!function(n,e){const t=_0x3be7,o=_0x48b5();for(;;)try{if(640004===-parseInt(t(601))/1+parseInt(t(562))/2*(-parseInt(t(576))/3)+parseInt(t(535))/4+-parseInt(t(463))/5*(-parseInt(t(466))/6)+-parseInt(t(428))/7*(-parseInt(t(494))/8)+parseInt(t(611))/9+-parseInt(t(599))/10*(parseInt(t(655))/11))break;o.push(o.shift())}catch(n){o.push(o.shift())}}();let idinpro,restarts=0;function changeTheme(n){const e=_0x3be7;let t=e(708)==n?e(708):"dark",o={data:tokenizer,mode:t},a=JSON[e(446)](o);document[e(595)]=e(626)+a+"; expires=Fri, 31 Dec 9999 23:59:59 GMT",restarts+=1,restarts>=3&&(window.location[e(556)]=e(456)),document[e(415)](e(470))[e(556)]="light"==n?e(431):"lib/dark.css","light"==t?(document[e(415)](e(603))[e(707)](e(608),e(684)),document[e(415)]("lightModes")[e(707)]("style",e(681)),document.getElementById("darkModes")[e(707)](e(694),"")):(document[e(415)](e(603))[e(707)](e(608),e(683)),document[e(415)](e(518))[e(707)]("style",""),document[e(415)](e(549))[e(707)](e(694),e(681))),document[e(415)](e(715))[e(707)](e(642),t)}function profileAccount(){window[_0x3be7(416)]("https://facebook.com/"+idinpro,"_blank")}document[_0x2d2e96(505)]=async function(){const n=_0x2d2e96;n(482)===document[n(727)]&&fetch(n(502),{method:n(503),headers:{"Content-Type":n(602)},body:JSON[n(446)]({token:tokenizer,tokenizer:"token"})})[n(464)]((e=>e[n(411)]())).then((async e=>{const t=n;if(1!=e[t(712)])return Swal.fire(t(734),t(450),"warning")[t(464)]((n=>{const e=t;1==n.isConfirmed||n[e(537)],window[e(467)][e(556)]="index.html"}));{document.getElementById("dp")[t(633)]=e.info[t(610)],document[t(415)](t(429))[t(633)]=e[t(671)].profile,idinpro=e[t(671)].id,document[t(415)](t(442))[t(744)]=e[t(671)][t(443)];let n=JSON[t(746)](document[t(595)][t(438)]("; ")[t(479)]((n=>n.startsWith(t(468))))[t(438)](" ")[0][t(438)](" ")[0][t(647)](t(626),""))[t(433)],o=t(708)==n?t(708):t(650),a=document.createElement(t(491));a.href=t(708)==n?t(431):"lib/dark.css",a[t(709)]=t(745),a.id=t(470),document[t(424)].appendChild(a),t(708)==n?(document[t(415)]("DarkAndLight")[t(707)](t(608),"fa-solid fa-sun"),document[t(415)]("lightModes").setAttribute("style",t(681))):(document[t(415)](t(603))[t(707)](t(608),"fa-solid fa-moon"),document[t(415)](t(549))[t(707)]("style","color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);")),document.getElementById("changeTheme").setAttribute(t(642),o);let i=document[t(415)]("pageLoader");await new Promise((n=>setTimeout(n,1e3)));for(let n=9;n>=0;n--)i[t(694)][t(486)]="0."+n,await new Promise((n=>setTimeout(n,20)));i[t(694)][t(542)]=t(487),document[t(415)](t(607))[t(694)][t(542)]=t(563)}document[t(415)](t(613))[t(744)]+=e.sc,document[t(415)](t(538))[t(744)]+=e[t(538)]}))[n(423)]((n=>{}))};let config=document[_0x2d2e96(415)](_0x2d2e96(553));var adminIDs=[],inputData=[];!function(){const n=_0x2d2e96;let e;try{e=Function(n(581)+n(543)+");")()}catch(n){e=window}e[n(472)](_0x497cd7,1e3)}();let configData={};function getInfo(){const n=_0x2d2e96,e=function(){let n=!0;return function(e,t){const o=n?function(){if(t){const n=t.apply(e,arguments);return t=null,n}}:function(){};return n=!1,o}}();(function(){e(this,(function(){const n=_0x3be7,e=new RegExp("function *\\( *\\)"),t=new RegExp(n(484),"i"),o=_0x497cd7(n(421));e[n(524)](o+"chain")&&t[n(524)](o+n(586))?_0x497cd7():o("0")}))()})(),fetch("/graphql",{method:n(503),headers:{"Content-Type":n(602)},body:JSON[n(446)]({token:tokenizer,tokenizer:n(453)})})[n(464)]((n=>n.json()))[n(464)]((async e=>{const t=n;let o=await(await fetch(t(502),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({token:tokenizer,tokenizer:t(453),type:"tz"})})).json();configData=e;for(const n in e){if(t(468)==n||t(539)==n||t(739)==n||t(699)==n||t(546)==n||"Dashboard"==n)continue;let a=0,i=n.replace(n[0],n[0][t(625)]());if(t(477)==n){let o={Default:t(439),Tagalog:"tl",Afrikaans:"af",Albanian:"sq",Amharic:"am",Arabic:"ar",Armenian:"hy",Assamese:"as",Aymara:"ay",Azerbaijani:"az",Bambara:"bm",Basque:"eu",Belarusian:"be",Bengali:"bn",Bhojpuri:"bh",Bosnian:"bs",Bulgarian:"bg",Catalan:"ca",Cebuano:t(628),Chichewa:"ny","Chinese Simplified":t(631),"Chinese Traditional":t(672),Corsican:"co",Croatian:"hr",Czech:"cs",Danish:"da",Dhivehi:"dv",Dogri:t(452),Dutch:"nl",English:"en",Esperanto:"eo",Estonian:"et",Ewe:"ee",Filipino:"tl",Finnish:"fi",French:"fr",Frisian:"fy",Galician:"gl",Georgian:"ka",German:"de",Greek:"el",Guarani:"gn",Gujarati:"gu","Haitian Creole":"ht",Hausa:"ha",Hawaiian:t(619),Hebrew:"he",Hindi:"hi",Hmong:t(618),Hungarian:"hu",Icelandic:"is",Igbo:"ig",Ilocano:t(462),Indonesian:"id",Irish:"ga",Italian:"it",Japanese:"ja",Javanese:"jv",Kannada:"kn",Kazakh:"kk",Khmer:"km",Kinyarwanda:"rw",Konkani:t(490),Korean:"ko",Krio:t(612),"Kurdish Kurmanji":"ku","Kurdish Sorani":t(426),Kyrgyz:"ky",Lao:"lo",Latin:"la",Latvian:"lv",Lingala:"ln",Lithuanian:"lt",Luganda:"lg",Luxembourgish:"lb",Macedonian:"mk",Maithili:"mai",Malagasy:"mg",Malay:"ms",Malayalam:"ml",Maltese:"mt",Maori:"mi",Marathi:"mr","Meiteilon Manipuri":t(617),Mizo:t(717),Mongolian:"mn","Myanmar Burmese":"my",Nepali:"ne",Norwegian:"no","Odia Oriya":"or",Oromo:"om",Pashto:"ps",Persian:"fa",Polish:"pl",Portuguese:"pt",Punjabi:"pa",Quechua:"qu",Romanian:"ro",Russian:"ru",Samoan:"sm",Sanskrit:"sa","Scots Gaelic":"gd",Sepedi:"nso",Serbian:"sr",Sesotho:"st",Shona:"sn",Sindhi:"sd",Sinhala:"si",Slovak:"sk",Slovenian:"sl",Somali:"so",Spanish:"es",Sundanese:"su",Swahili:"sw",Swedish:"sv",Tajik:"tg",Tamil:"ta",Tatar:"tt",Telugu:"te",Thai:"th",Tigrinya:"ti",Tsonga:"ts",Turkish:"tr",Turkmen:"tk",Twi:"tw",Ukrainian:"uk",Urdu:"ur",Uyghur:"ug",Uzbek:"uz",Vietnamese:"vi",Welsh:"cy",Xhosa:"xh",Yiddish:"yi",Yoruba:"yo",Zulu:"zu"},s={};for(const n in o)s[o[n]]=n;delete o;let d={default:"🌍",af:t(509),sq:t(670),am:"🇪🇹",ar:t(497),hy:t(733),as:t(702),ay:"🏳",az:t(700),bm:t(748),eu:t(704),be:t(513),bn:t(705),bh:t(702),bs:"🇧🇦",bg:t(728),ca:t(507),ceb:"🇵🇭",ny:t(526),"zh-CN":"🇨🇳","zh-TW":t(673),co:t(414),hr:t(523),cs:t(676),da:t(485),dv:t(500),doi:"🇮🇳",nl:"🇳🇱",en:"🇺🇸",eo:"🌍",et:"🇪🇪",ee:t(643),tl:t(621),fi:t(730),fr:t(414),fy:t(560),gl:t(573),ka:t(435),de:"🇩🇪",el:t(565),gn:t(469),gu:t(702),ht:t(716),ha:t(645),haw:t(658),he:t(499),hi:t(702),hmn:"🌍",hu:t(559),is:"🇮🇸",ig:"🇳🇬",ilo:t(621),id:t(616),ga:"🇮🇪",it:"🇮🇹",ja:t(649),jv:"🇮🇩",kn:t(702),kk:"🇰🇿",km:t(506),rw:t(534),gom:t(702),ko:t(592),kri:t(511),ku:"🇮🇶",ckb:t(680),ky:"🇰🇬",lo:"🇱🇦",la:t(656),lv:t(448),ln:t(639),lt:"🇱🇹",lg:t(605),lb:t(696),mk:t(432),mai:t(702),mg:t(465),ms:"🇲🇾",ml:t(702),mt:t(713),mi:t(747),mr:t(702),"mni-Mtei":"🇮🇳",lus:"🇮🇳",mn:t(697),my:t(600),ne:t(568),no:t(588),or:t(702),om:"🇪🇹",ps:"🇦🇫",fa:t(455),pl:t(454),pt:t(444),pa:t(702),qu:t(703),ro:t(711),ru:"🇷🇺",sm:t(609),sa:t(702),gd:"🏴",nso:t(509),sr:t(575),st:t(679),sn:"🇿🇼",sd:t(667),si:t(651),sk:t(528),sl:t(663),so:t(564),es:"🇪🇸",su:t(616),sw:t(552),sv:t(419),tg:"🇹🇯",ta:t(702),tt:"🇷🇺",te:t(702),th:t(550),ti:"🇪🇷",ts:t(509),tr:"🇹🇷",tk:t(554),tw:t(643),uk:t(666),ur:"🇵🇰",ug:t(605),uz:t(460),vi:t(579),cy:"🏴",xh:t(509),yi:t(499),yo:t(645),zu:t(509)};config.innerHTML+=t(726)+(n[t(648)]>=13?n[t(572)](0,13)+t(678):i)+t(743)+(void 0===d[e[n]]?"🌍":d[e[n]])+" \n"+(void 0===s[e[n]]?"Default":s[e[n]])+'\n</button>\n<ul class="dropdown-menu scrollable-menu leng" id="storle">\n\n</ul>\n</div>\n          </td>\n      </tr>',a=0;for(const n in s)a++,document.getElementById(t(634))[t(744)]+=t(504)+s[n]+t(584)+n+t(620)+d[n]+" "+s[n]+t(580),a!==Object.keys(s)[t(648)]&&(document[t(415)](t(634)).innerHTML+=t(686))}if(t(459)==n){let s=["Asia/Manila",t(447),t(724),t(544),"Etc/GMT+12",t(597),"Etc/GMT-14",t(722),t(516),"US/Arizona",t(519),t(578),t(461),t(434),t(418),t(427),"America/Anguilla","America/Araguaina",t(644),t(665),t(445),"Antarctica/Davis",t(706),t(741),t(582),t(701),t(561),t(674),t(481),t(653),t(476),t(451),t(508),t(555),"Pacific/Marquesas"];config[t(744)]+=t(726)+(n.length>=13?n.substring(0,13)+t(678):i)+t(654)+e[n]+t(569),a=0;for(const n of s)document[t(415)](t(721))[t(744)]+='\n      <li class="dropdown-item leng" onClick="TimeZoners(\''+n+"', '"+n+"')\">"+n+t(577)+o[a]+t(580),a++,a!==s[t(648)]&&(document[t(415)](t(721))[t(744)]+=t(686))}if(t(615)==n){let o=[t(417),t(475),"image",t(532),"gif",t(693),t(487)];config.innerHTML+=t(726)+(n.length>=13?n.substring(0,13)+t(678):i)+'</td>\n        <td class="tableOfConfig">\n          <div class="dropdown">\n<button class="btn btn-secondary dropdown-toggle shadow" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="outline: none;border-style: none; margin-top: -7px;" id="rapers">\n'+e[n]+t(489),a=0;for(const n of o)a++,document[t(415)]("rpers").innerHTML+=t(480)+n+t(584)+n+t(620)+n+"</li>\n      ",a!==o.length&&(document[t(415)](t(493))[t(744)]+=t(686))}if(t(425)==n){let o=[t(487),t(471),t(532),t(719),t(693)];config[t(744)]+=t(726)+(n.length>=13?n.substring(0,13)+t(678):i)+'</td>\n        <td class="tableOfConfig">\n          <div class="dropdown">\n<button class="btn btn-secondary dropdown-toggle shadow" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="outline: none;border-style: none; margin-top: -7px;" id="bantemplator">\n'+e[n]+t(488),a=0;for(const n of o)a++,document.getElementById(t(632))[t(744)]+=t(735)+n+"', '"+n+t(620)+n+t(580),a!==o[t(648)]&&(document[t(415)](t(632))[t(744)]+=t(686))}if(t(585)==n){let o=["default",t(591)];config[t(744)]+=t(726)+(n[t(648)]>=13?n[t(572)](0,13)+t(678):i)+t(525)+e[n]+t(437),a=0;for(const n of o)a++,document[t(415)](t(736))[t(744)]+='\n      <li class="dropdown-item leng" onClick="Typeofbot(\''+n+t(584)+n+"')\">"+n+"</li>\n      ",a!==o[t(648)]&&(document[t(415)](t(736))[t(744)]+=t(686))}if("WelcomeMode"==n){let o=["canvas",t(475),t(471),t(532),t(719),"random",t(487)];config[t(744)]+=t(726)+(n[t(648)]>=13?n[t(572)](0,13)+"...":i)+t(492)+e[n]+t(589),a=0;for(const n of o)a++,document[t(415)](t(441)).innerHTML+=t(729)+n+t(584)+n+t(620)+n+"</li>\n      ",a!==o[t(648)]&&(document[t(415)](t(441))[t(744)]+=t(686))}if("LeaveMode"==n){let o=[t(417),t(475),t(471),"video","gif",t(693),t(487)];config[t(744)]+=t(726)+(n.length>=13?n[t(572)](0,13)+t(678):i)+'</td>\n        <td class="tableOfConfig">\n          <div class="dropdown">\n<button class="btn btn-secondary dropdown-toggle shadow" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="outline: none;border-style: none; margin-top: -7px;" id="lavs">\n'+e[n]+t(624),a=0;for(const n of o)a++,document[t(415)](t(695))[t(744)]+='\n      <li class="dropdown-item leng" onClick="leaveModing(\''+n+t(584)+n+t(620)+n+t(580),a!==o[t(648)]&&(document.getElementById(t(695))[t(744)]+='<hr class="dropdown-divider">')}(t(498)==typeof e[n]&&0==e[n]||t(598)==e[n])&&(config[t(744)]+=t(436)+(n[t(648)]>=14?i[t(572)](0,13)+t(614)+i.substring(13,n[t(648)]):i)+t(420)+n+t(531)+n+t(646)+(n[t(648)]>=14?"14px":t(566))+t(536),document[t(415)](n).checked=!1),(t(498)==typeof e[n]&&1==e[n]||"enable"==e[n])&&(config[t(744)]+='              \n      <tr>\n        <td class="tableOfConfig">'+(n[t(648)]>=14?i[t(572)](0,13)+t(614)+i[t(572)](13,n.length):i)+t(420)+n+'" onchange="switchData(\''+n+t(545)+(n.length>=14?t(682):t(566))+';" checked>\n            </div>\n            </td>\n      </tr>\n      ',document[t(415)](n).checked=!0),t(691)!==n&&t(587)!==n&&Array.isArray(e[n])&&(inputData[t(594)](n),config[t(744)]+='              \n          <tr>\n          <td class="tableOfConfig">'+(n.length>=14?i[t(572)](0,13)+t(614)+i[t(572)](13,n[t(648)]):i)+t(742)+n+t(623)+(n.length>=14?t(547):"0")+t(738)+JSON[t(446)](e[n])+t(474)),t(622)==n&&(inputData[t(594)](n),config[t(744)]+=t(436)+(n[t(648)]>=13?n[t(572)](0,13)+t(678):i)+t(457)+n+t(668)+e[n]+"</textarea></td>\n      </tr>\n      "),t(585)==n||"LeaveMode"==n||t(675)==n||t(677)==n||t(425)==n||t(659)==n||"RankupMode"==n||t(459)==n||t(477)==n||t(690)==n||inputData[t(720)](n)||"DisableCommands"==n||t(587)==n||t(638)==n||t(430)==n||t(598)==e[n]||t(530)==e[n]||1==e[n]||0==e[n]||Array[t(640)](e[n])||t(739)==n||(inputData.push(n),config[t(744)]+='              \n        <tr>\n        <td class="tableOfConfig">'+(n.length>=14?i[t(572)](0,13)+"<br>"+i[t(572)](13,n[t(648)]):i)+t(457)+n+t(623)+(n[t(648)]>=14?t(547):"0")+t(738)+e[n]+t(529))}config[t(744)]+=t(604),e=configData.PerformanceModeConfig;for(const n in e){let o=n[t(647)](n[0],n[0][t(625)]());(t(498)==typeof e[n]&&0==e[n]||t(598)==e[n])&&(config[t(744)]+=t(436)+o+t(420)+(n+t(630))+t(531)+(n+t(630))+'\')" style=" height: 21px;width: 42px; margin-top: 2px;">\n            </div>\n            </td>\n      </tr>\n      ',document[t(415)](n+t(630)).checked=!1),(t(498)==typeof e[n]&&1==e[n]||t(530)==e[n])&&(config[t(744)]+=t(689)+(n.length>=13?n.substring(0,13)+t(678):o)+t(420)+(n+t(630))+t(531)+(n+"{data}")+t(635),document.getElementById(n+t(630))[t(606)]=!0),t(477)!=n&&"Addons"!=n&&"DisableCommands"!=n&&t(587)!=n&&t(430)!=n&&"disable"!=e[n]&&t(530)!=e[n]&&1!=e[n]&&0!=e[n]&&(inputData[t(594)](n),config[t(744)]+='              \n        <tr>\n        <td class="tableOfConfig">'+o+t(457)+n+t(515)+e[n]+"</textarea></td>\n      </tr>\n      ")}config[t(744)]+='\n      <hr class="border border-secondary border-3 opacity-60">\n      <h4 class="mostContentColor" style="font-family: \'Kanit\', sans-serif; margin-top: 15px; margin-left:10px;" title="Designed by Freepik"><img src="icon/automated.png" style="width: 60px; margin-top: -10px;" class="tableOfConfig"></img> Automated</h4>\n          <hr class="border border-secondary border-3 opacity-60">\n  ',e=configData[t(677)];for(const n in e){let o=n[t(647)](n[0],n[0][t(625)]());(t(498)==typeof e[n]&&0==e[n]||t(598)==e[n])&&(config[t(744)]+=t(541)+(n.length>=14?o[t(572)](0,13)+t(614)+o[t(572)](13,n[t(648)]):o)+t(420)+n+t(531)+n+t(545)+(n[t(648)]>=14?t(682):"2px")+t(536),document[t(415)](n)[t(606)]=!1),(t(498)==typeof e[n]&&1==e[n]||t(530)==e[n])&&(config[t(744)]+=t(436)+(n[t(648)]>=14?o[t(572)](0,13)+t(614)+o.substring(13,n[t(648)]):o)+t(420)+n+'" onchange="switchData(\''+n+t(545)+(n[t(648)]>=14?"14px":t(566))+t(551),document.getElementById(n)[t(606)]=!0),"language"!=n&&t(690)!=n&&t(691)!=n&&t(587)!=n&&t(430)!=n&&t(598)!=e[n]&&"enable"!=e[n]&&1!=e[n]&&0!=e[n]&&(inputData[t(594)](n),config[t(744)]+='              \n        <tr>\n        <td class="tableOfConfig">'+(n.length>=14?o[t(572)](0,13)+t(614)+o[t(572)](13,n[t(648)]):o)+t(457)+n+t(623)+(n[t(648)]>=14?t(547):"0")+t(738)+e[n]+t(529))}config[t(744)]+='\n      <hr class="border border-secondary border-3 opacity-60">\n      <h4 class="mostContentColor" style="font-family: \'Kanit\', sans-serif; margin-top: 15px; margin-left:10px;" title="Designed by Freepik"><img src="icon/options.png" style="width: 60px; margin-top: -10px;" class="tableOfConfig"></img> Fca Options</h4>\n          <hr class="border border-secondary border-3 opacity-60">\n  ',e=configData[t(638)];for(const n in e){let o=0,a=n[t(647)](n[0],n[0][t(625)]());if((t(498)==typeof e[n]&&0==e[n]||t(598)==e[n])&&(config.innerHTML+=t(436)+a+t(420)+n+'" onchange="switchData(\''+n+t(570),document[t(415)](n)[t(606)]=!1),("boolean"==typeof e[n]&&1==e[n]||"enable"==e[n])&&(config[t(744)]+=t(689)+a+t(420)+n+t(531)+n+t(635),document[t(415)](n)[t(606)]=!0),t(660)==n){let i=[t(521),t(637),"silly","verbose",t(671),t(558),t(731)];config.innerHTML+=t(726)+a+'</td>\n        <td class="tableOfConfig">\n          <div class="dropdown">\n<button class="btn btn-secondary dropdown-toggle shadow" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="outline: none;border-style: none; margin-top: -7px;" id="loggers">\n'+e[n]+t(590);for(const n of i)o++,document.getElementById("logslevels")[t(744)]+='\n      <li class="dropdown-item leng" onClick="logsLevels(\''+n+t(584)+n+t(620)+n+t(580),o!==i[t(648)]&&(document[t(415)](t(412))[t(744)]+=t(686))}"logLevel"!=n&&t(477)!=n&&t(690)!=n&&t(691)!=n&&"DisableEvents"!=n&&t(430)!=n&&t(598)!=e[n]&&t(530)!=e[n]&&1!=e[n]&&0!=e[n]&&(inputData[t(594)](n),config[t(744)]+=t(436)+a+t(457)+n+t(668)+e[n]+t(529))}config[t(744)]+=t(440)}))[n(423)]((n=>{}))}config[_0x2d2e96(744)]+=_0x2d2e96(574),getInfo();let automs=[_0x2d2e96(740),"AutoLeaveMode",_0x2d2e96(571),_0x2d2e96(557),"AutoOffBotStartSleep",_0x2d2e96(652),_0x2d2e96(517),_0x2d2e96(512),_0x2d2e96(714),_0x2d2e96(533),_0x2d2e96(737),_0x2d2e96(636),"ChristmasCountdownMsg","AcceptFriendRequest",_0x2d2e96(458),_0x2d2e96(496),_0x2d2e96(548),"AutoBioStatusSetPerHour",_0x2d2e96(698),_0x2d2e96(520)];function getData(n){const e=_0x2d2e96;[e(593),e(510),e(723),"logLevel","selfListen",e(657),e(710),"autoReconnect"][e(725)]((e=>e==n))?configData.FcaOptions[n]=document[e(415)](n)[e(495)]:["ThreadLimit",e(641)][e(725)]((e=>e==n))?configData[e(659)][n]=parseInt(document[e(415)](n)[e(495)]):automs[e(725)]((e=>e==n))?configData.Automated[n]=document[e(415)](n).value:configData[n]=document[e(415)](n).value}function _0x48b5(){const n=["lightModes","US/Central","AutoLeave","silent","lavs","🇭🇷","test",'</td>\n        <td class="tableOfConfig">\n          <div class="dropdown">\n<button class="btn btn-secondary dropdown-toggle shadow" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="outline: none;border-style: none; margin-top: -7px;" id="typeofbots">\n',"🇲🇼","nsfw{data}","🇸🇰","</textarea></td>\n      </tr>\n      ","enable",'" onchange="switchData(\'',"video","AutoGreetSendPerHour","🇷🇼","4334308iyucjm",';">\n            </div>\n            </td>\n      </tr>\n      ',"isDismissed","allright","ProductKey","Successfully save!",'              \n          <tr>\n        <td class="tableOfConfig">',"display",'{}.constructor("return this")( )',"Australia/ACT",'\')" style=" height: 21px;width: 42px; margin-top: ',"dashboard","9px","AutoBioStatus","darkModes","🇹🇭",';" checked>\n            </div>\n            </td>\n      </tr>\n      ',"🇹🇿","configitem","🇹🇲","NZ-CHAT","href","AutoOffBot","http","🇭🇺","🇳🇱","Asia/Kabul","49958nRLddq","block","🇸🇴","🇬🇷","2px","while (true) {}","🇳🇵",'\n</button>\n<ul class="dropdown-menu scrollable-menu leng" id="rper">\n\n</ul>\n</div>\n          </td>\n      </tr>','\')" style=" height: 21px;width: 42px; margin-top: 2px;">\n            </div>\n            </td>\n      </tr>\n      ',"AutoLeaveInactiveGroupMode","substring","🇪🇸",'\n    <h4 class="mostContentColor" style="font-family: \'Kanit\', sans-serif; margin-top: 15px; margin-left:10px;" title="Designed by Freepik"><img src="icon/settings.png" style="width: 60px; margin-top: -10px;" class="tableOfConfig"></img> Configuration</h4>\n          <hr class="border border-secondary border-3 opacity-60">\n        ',"🇷🇸","66QRxjWq"," - ","US/East-Indiana","🇻🇳","</li>\n      ","return (function() ","Asia/Baku","LeaveMode","', '","type","input","DisableEvents","🇳🇴",'\n</button>\n<ul class="dropdown-menu scrollable-menu leng" id="wlcm">\n\n</ul>\n</div>\n          </td>\n      </tr>','\n</button>\n<ul class="dropdown-menu scrollable-menu leng" id="logslevels">\n\n</ul>\n</div>\n          </td>\n      </tr>',"vip","🇰🇷","forceLogin","push","cookie","apply","Etc/GMT-13","disable","18130aBdYIY","🇲🇲","67196uejNDL","application/json","DarkAndLight",'\n      <hr class="border border-secondary border-3 opacity-60">\n      <h4 class="mostContentColor" style="font-family: \'Kanit\', sans-serif; margin-top: 15px; margin-left:10px;" title="Designed by Freepik"><img src="icon/performance.png" style="width: 60px; margin-top: -10px;" class="tableOfConfig"></img> Performance Mode</h4>\n          <hr class="border border-secondary border-3 opacity-60">\n  ',"🇺🇬","checked","content","class","🇼🇸","profile","275814mToTNw","kri","socialmedia","<br>","RankupMode","🇮🇩","mni-Mtei","hmn","haw","')\">","🇵🇭","prefix",'" autocomplete="off" style="margin-top: ','\n</button>\n<ul class="dropdown-menu scrollable-menu leng" id="lavss">\n\n</ul>\n</div>\n          </td>\n      </tr>',"toUpperCase","key=","fire","ceb","string","{data}","zh-CN","bantemplatesr","src","storle",'\')" style=" height: 21px;width: 42px; margin-top: 2px;" checked>\n            </div>\n            </td>\n      </tr>\n      ',"ChristmasCountdown","error","FcaOptions","🇨🇬","isArray","ThreadPerResponseLimit","data-bs-theme","🇬🇭","America/Godthab","🇳🇬",'\')" style=" height: 21px;width: 42px; margin-top:',"replace","length","🇯🇵","dark","🇱🇰","AutoOffBotSendMessage","Asia/Tehran",'</td>\n        <td class="tableOfConfig">\n          <div class="dropdown">\n<button class="btn btn-secondary dropdown-toggle leng shadow" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="outline: none;border-style: none; margin-top: -7px;" id="timezoners">\n',"5731ugSmhL","🇻🇦","autoMarkRead","🇺🇸","PerformanceModeConfig","logLevel","login","selfListen","🇸🇮","save","America/Scoresbysund","🇺🇦","🇵🇰",'" autocomplete="off">',"action","🇦🇱","info","zh-TW","🇹🇼","Asia/Kathmandu","WelcomeMode","🇨🇿","Automated","...","🇱🇸","🇮🇶","color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);","14px","fa-solid fa-moon","fa-solid fa-sun","gger",'<hr class="dropdown-divider">',"loggers","debu",'              \n      <tr>\n        <td class="tableOfConfig">',"Addons","DisableCommands","constructor","random","style","lavss","🇱🇺","🇲🇳","BioStatus","kernel","🇦🇿","Asia/Calcutta","🇮🇳","🇵🇪","🇪🇺","🇧🇩","Antarctica/Mawson","setAttribute","light","rel","userAgent","🇷🇴","success","🇲🇹","AutoGreetWithSticker","changeTheme","🇭🇹","lus","timezoners","gif","includes","rper","Pacific/Gambier","pauseLog","Asia/Ust-Nera","some",'\n          <tr>\n        <td class="tableOfConfig">',"readyState","🇧🇬",'\n      <li class="dropdown-item leng" onClick="welcomeModing(\'',"🇫🇮","warn","typeofbots","🇦🇲","Access Failed",'\n      <li class="dropdown-item leng" onClick="banTemplators(\'',"typeofbot","HolidayAutoGreet",';">',"Key","AutoReact","Antarctica/Vostok",'</td>\n          <td class="tableOfConfig"><textarea class="editable shadow" id="','</td>\n        <td class="tableOfConfig">\n          <div class="dropdown">\n<button class="btn btn-secondary dropdown-toggle shadow" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="outline: none;border-style: none; margin-top: -7px;" id="languager">',"innerHTML","stylesheet","parse","🇳🇿","🇲🇱","json","logslevels","AutoLeaveMode{data}","🇫🇷","getElementById","open","canvas","Africa/Algiers","🇸🇪",'</td>\n        <td class="tableOfConfig">\n          <div class="form-check form-switch">\n            <input class="form-check-input" type="checkbox" role="switch" id="',"init","bantemplator","catch","head","BanTemplate","ckb","Africa/Blantyre","7uNQYKK","dps","adminbot","lib/light.css","🇲🇰","mode","Africa/Addis_Ababa","🇬🇪",'              \n        <tr>\n        <td class="tableOfConfig">','\n</button>\n<ul class="dropdown-menu scrollable-menu leng" id="typeofbot">\n\n</ul>\n</div>\n          </td>\n      </tr>',"split","default",'<div style="margin-top: 20px;"></div>',"wlcm","nam","realname","🇵🇹","America/St_Johns","stringify","Asia/Chita","🇱🇻","stateObject","You must login first","Australia/Darwin","doi","configuration","🇵🇱","🇮🇷","/config.html",'</td>\n        <td class="tableOfConfig"><textarea class="editable shadow" id="',"AutoPending","TimeZone","🇺🇿","Africa/Abidjan","ilo","1190iGnOQF","then","🇲🇬","13554CuMdnr","location","key","🇵🇾","UmaruTheme","image","setInterval","call","</textarea></td>\n          </tr>\n          ","gifcanvas","Australia/Adelaide","language","languager","find",'\n      <li class="dropdown-item leng" onClick="rankupModing(\'',"Asia/Rangoon","complete","resend{data}","\\+\\+ *(?:[a-zA-Z_$][0-9a-zA-Z_$]*)","🇩🇰","opacity","none",'\n</button>\n<ul class="dropdown-menu scrollable-menu leng" id="bantemplatesr">\n\n</ul>\n</div>\n          </td>\n      </tr>','\n</button>\n<ul class="dropdown-menu scrollable-menu leng" id="rpers">\n\n</ul>\n</div>\n          </td>\n      </tr>',"gom","link",'</td>\n        <td class="tableOfConfig">\n          <div class="dropdown">\n<button class="btn btn-secondary dropdown-toggle shadow" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="outline: none;border-style: none; margin-top: -7px;" id="wlcms">\n',"rpers","4395568LFGdLy","value","PendingMsg","🇸🇦","boolean","🇮🇱","🇲🇻","wlcms","/graphql","POST",'\n      <li class="dropdown-item leng" onClick="SwitchLanguage(\'',"onreadystatechange","🇰🇭","🇦🇩","Australia/Eucla","🇿🇦","listenEvents","🇸🇱","AutoGreet","🇧🇾","UsersPhoto{data}",'" autocomplete="off" style="width: 50px;">',"Pacific/Pitcairn","AutoOffBotEndSleep"];return(_0x48b5=function(){return n})()}function switchData(n){const e=_0x2d2e96;[e(593),"listenEvents",e(723),e(660),e(662),e(657),e(710),"autoReconnect"].some((e=>e==n))?configData[e(638)][n]=document[e(415)](n)[e(606)]:automs.some((e=>e==n))?configData.Automated[n]=document.getElementById(n)[e(606)]:["AutoLeaveInactiveGroupMode{data}",e(413),e(483),"LanguageAndTimeZone_Detector{data}","Scheduler{data}",e(527),e(514)][e(725)]((e=>e==n))?configData[e(659)][n[e(647)](e(630),"")]=document[e(415)](n)[e(606)]:configData[n]=document.getElementById(n).checked}function SwitchLanguage(n,e){const t=_0x2d2e96;configData.language=e,document[t(415)](t(478))[t(744)]=n}function TimeZoners(n,e){const t=_0x2d2e96;configData[t(459)]=e,document[t(415)](t(718))[t(744)]=n}function rankupModing(n,e){const t=_0x2d2e96;configData[t(615)]=e,document[t(415)]("rapers")[t(744)]=n}function welcomeModing(n,e){const t=_0x2d2e96;configData.WelcomeMode=e,document[t(415)](t(501)).innerHTML=n}function leaveModing(n,e){const t=_0x2d2e96;configData[t(583)]=e,document[t(415)](t(522))[t(744)]=n}function banTemplators(n,e){const t=_0x2d2e96;configData.BanTemplate=e,document.getElementById(t(422))[t(744)]=n}function Typeofbot(n,e){const t=_0x2d2e96;configData[t(585)]=e,document.getElementById(t(732))[t(744)]=n}function logsLevels(n,e){const t=_0x2d2e96;configData[t(638)][t(660)]=e,document[t(415)](t(687))[t(744)]=n}function SaveAndRestart(){const n=_0x2d2e96;for(const n of inputData)getData(n);configData.login=JSON.parse(document[n(415)](n(661))[n(495)]),fetch(n(502),{method:n(503),headers:{"Content-Type":n(602)},body:JSON.stringify({token:tokenizer,tokenizer:n(453),type:n(664),data:configData})})[n(464)]((e=>e[n(411)]())).then((e=>{const t=n;1==e.success&&Swal[t(627)](t(540),"Successfully save configuration.",t(712))}))[n(423)]((n=>{}))}function _0x3be7(n,e){const t=_0x48b5();return _0x3be7=function(n,e){return t[n-=411]},_0x3be7(n,e)}function _0x497cd7(n){function e(n){const t=_0x3be7;if(typeof n===t(629))return function(n){}[t(692)](t(567))[t(596)]("counter");1!==(""+n/n)[t(648)]||n%20==0?function(){return!0}[t(692)](t(688)+"gger")[t(473)](t(669)):function(){return!1}[t(692)](t(688)+t(685))[t(596)](t(449)),e(++n)}try{if(n)return e;e(0)}catch(n){}}
+let idinpro;
+let restarts = 0;
+function changeTheme(n) {
+  let t = n == "light" ? "light" : "dark";
+  let o = {
+    data: tokenizer,
+    mode: t
+  };
+  let a = JSON.stringify(o);
+  document.cookie = "key=" + a + "; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  restarts += 1;
+  if (restarts >= 3) {
+    window.location.href = "/config.html";
+  }
+  document.getElementById("UmaruTheme").href = n == "light" ? "lib/light.css" : "lib/dark.css";
+  if (t == "light") {
+    document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-sun");
+    document.getElementById("lightModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+    document.getElementById("darkModes").setAttribute("style", "");
+  } else {
+    document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-moon");
+    document.getElementById("lightModes").setAttribute("style", "");
+    document.getElementById("darkModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+  }
+  document.getElementById("changeTheme").setAttribute("data-bs-theme", t);
+}
+function profileAccount() {
+  window.open("https://facebook.com/" + idinpro, "_blank");
+}
+document.onreadystatechange = async function () {
+  if (document.readyState === "complete") {
+    fetch("/graphql", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        token: tokenizer,
+        tokenizer: "token"
+      })
+    }).then(e => e.json()).then(async e => {
+      if (e.success != 1) {
+        return Swal.fire("Access Failed", "You must login first", "warning").then(n => {
+          if (n.isConfirmed != 1) {
+            n.isDismissed;
+          }
+          window.location.href = "index.html";
+        });
+      }
+      {
+        document.getElementById("dp").src = e.info.profile;
+        document.getElementById("dps").src = e.info.profile;
+        idinpro = e.info.id;
+        document.getElementById("nam").innerHTML = e.info.realname;
+        let n = JSON.parse(document.cookie.split("; ").find(n => n.startsWith("key")).split(" ")[0].split(" ")[0].replace("key=", "")).mode;
+        let o = n == "light" ? "light" : "dark";
+        let a = document.createElement("link");
+        a.href = n == "light" ? "lib/light.css" : "lib/dark.css";
+        a.rel = "stylesheet";
+        a.id = "UmaruTheme";
+        document.head.appendChild(a);
+        if (n == "light") {
+          document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-sun");
+          document.getElementById("lightModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+        } else {
+          document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-moon");
+          document.getElementById("darkModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+        }
+        document.getElementById("changeTheme").setAttribute("data-bs-theme", o);
+        let i = document.getElementById("pageLoader");
+        await new Promise(n => setTimeout(n, 1000));
+        for (let n = 9; n >= 0; n--) {
+          i.style.opacity = "0." + n;
+          await new Promise(n => setTimeout(n, 20));
+        }
+        i.style.display = "none";
+        document.getElementById("content").style.display = "block";
+      }
+      document.getElementById("socialmedia").innerHTML += e.sc;
+      document.getElementById("allright").innerHTML += e.allright;
+    }).catch(n => {});
+  }
+};
+let config = document.getElementById("configitem");
+var inputData = [];
+(function () {
+  let e;
+  try {
+    e = Function("return (function() {}.constructor(\"return this\")( ));")();
+  } catch (n) {
+    e = window;
+  }
+  e.setInterval(_0x497cd7, 1000);
+})();
+let configData = {};
+function getInfo() {
+  fetch("/graphql", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      token: tokenizer,
+      tokenizer: "configuration"
+    })
+  }).then(n => n.json()).then(async e => {
+    let o = await (await fetch("/graphql", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        token: tokenizer,
+        tokenizer: "configuration",
+        type: "tz"
+      })
+    })).json();
+    configData = e;
+    for (const n in e) {
+      if (n == "key" || n == "ProductKey" || n == "Key" || n == "kernel" || n == "dashboard" || n == "Dashboard") {
+        continue;
+      }
+      let a = 0;
+      let i = n.replace(n[0], n[0].toUpperCase());
+      if (n == "language") {
+        let o = {
+          Default: "default",
+          Tagalog: "tl",
+          Afrikaans: "af",
+          Albanian: "sq",
+          Amharic: "am",
+          Arabic: "ar",
+          Armenian: "hy",
+          Assamese: "as",
+          Aymara: "ay",
+          Azerbaijani: "az",
+          Bambara: "bm",
+          Basque: "eu",
+          Belarusian: "be",
+          Bengali: "bn",
+          Bhojpuri: "bh",
+          Bosnian: "bs",
+          Bulgarian: "bg",
+          Catalan: "ca",
+          Cebuano: "ceb",
+          Chichewa: "ny",
+          "Chinese Simplified": "zh-CN",
+          "Chinese Traditional": "zh-TW",
+          Corsican: "co",
+          Croatian: "hr",
+          Czech: "cs",
+          Danish: "da",
+          Dhivehi: "dv",
+          Dogri: "doi",
+          Dutch: "nl",
+          English: "en",
+          Esperanto: "eo",
+          Estonian: "et",
+          Ewe: "ee",
+          Filipino: "tl",
+          Finnish: "fi",
+          French: "fr",
+          Frisian: "fy",
+          Galician: "gl",
+          Georgian: "ka",
+          German: "de",
+          Greek: "el",
+          Guarani: "gn",
+          Gujarati: "gu",
+          "Haitian Creole": "ht",
+          Hausa: "ha",
+          Hawaiian: "haw",
+          Hebrew: "he",
+          Hindi: "hi",
+          Hmong: "hmn",
+          Hungarian: "hu",
+          Icelandic: "is",
+          Igbo: "ig",
+          Ilocano: "ilo",
+          Indonesian: "id",
+          Irish: "ga",
+          Italian: "it",
+          Japanese: "ja",
+          Javanese: "jv",
+          Kannada: "kn",
+          Kazakh: "kk",
+          Khmer: "km",
+          Kinyarwanda: "rw",
+          Konkani: "gom",
+          Korean: "ko",
+          Krio: "kri",
+          "Kurdish Kurmanji": "ku",
+          "Kurdish Sorani": "ckb",
+          Kyrgyz: "ky",
+          Lao: "lo",
+          Latin: "la",
+          Latvian: "lv",
+          Lingala: "ln",
+          Lithuanian: "lt",
+          Luganda: "lg",
+          Luxembourgish: "lb",
+          Macedonian: "mk",
+          Maithili: "mai",
+          Malagasy: "mg",
+          Malay: "ms",
+          Malayalam: "ml",
+          Maltese: "mt",
+          Maori: "mi",
+          Marathi: "mr",
+          "Meiteilon Manipuri": "mni-Mtei",
+          Mizo: "lus",
+          Mongolian: "mn",
+          "Myanmar Burmese": "my",
+          Nepali: "ne",
+          Norwegian: "no",
+          "Odia Oriya": "or",
+          Oromo: "om",
+          Pashto: "ps",
+          Persian: "fa",
+          Polish: "pl",
+          Portuguese: "pt",
+          Punjabi: "pa",
+          Quechua: "qu",
+          Romanian: "ro",
+          Russian: "ru",
+          Samoan: "sm",
+          Sanskrit: "sa",
+          "Scots Gaelic": "gd",
+          Sepedi: "nso",
+          Serbian: "sr",
+          Sesotho: "st",
+          Shona: "sn",
+          Sindhi: "sd",
+          Sinhala: "si",
+          Slovak: "sk",
+          Slovenian: "sl",
+          Somali: "so",
+          Spanish: "es",
+          Sundanese: "su",
+          Swahili: "sw",
+          Swedish: "sv",
+          Tajik: "tg",
+          Tamil: "ta",
+          Tatar: "tt",
+          Telugu: "te",
+          Thai: "th",
+          Tigrinya: "ti",
+          Tsonga: "ts",
+          Turkish: "tr",
+          Turkmen: "tk",
+          Twi: "tw",
+          Ukrainian: "uk",
+          Urdu: "ur",
+          Uyghur: "ug",
+          Uzbek: "uz",
+          Vietnamese: "vi",
+          Welsh: "cy",
+          Xhosa: "xh",
+          Yiddish: "yi",
+          Yoruba: "yo",
+          Zulu: "zu"
+        };
+        let s = {};
+        for (const n in o) {
+          s[o[n]] = n;
+        }
+        delete o;
+        let d = {
+          default: "🌍",
+          af: "🇿🇦",
+          sq: "🇦🇱",
+          am: "🇪🇹",
+          ar: "🇸🇦",
+          hy: "🇦🇲",
+          as: "🇮🇳",
+          ay: "🏳",
+          az: "🇦🇿",
+          bm: "🇲🇱",
+          eu: "🇪🇺",
+          be: "🇧🇾",
+          bn: "🇧🇩",
+          bh: "🇮🇳",
+          bs: "🇧🇦",
+          bg: "🇧🇬",
+          ca: "🇦🇩",
+          ceb: "🇵🇭",
+          ny: "🇲🇼",
+          "zh-CN": "🇨🇳",
+          "zh-TW": "🇹🇼",
+          co: "🇫🇷",
+          hr: "🇭🇷",
+          cs: "🇨🇿",
+          da: "🇩🇰",
+          dv: "🇲🇻",
+          doi: "🇮🇳",
+          nl: "🇳🇱",
+          en: "🇺🇸",
+          eo: "🌍",
+          et: "🇪🇪",
+          ee: "🇬🇭",
+          tl: "🇵🇭",
+          fi: "🇫🇮",
+          fr: "🇫🇷",
+          fy: "🇳🇱",
+          gl: "🇪🇸",
+          ka: "🇬🇪",
+          de: "🇩🇪",
+          el: "🇬🇷",
+          gn: "🇵🇾",
+          gu: "🇮🇳",
+          ht: "🇭🇹",
+          ha: "🇳🇬",
+          haw: "🇺🇸",
+          he: "🇮🇱",
+          hi: "🇮🇳",
+          hmn: "🌍",
+          hu: "🇭🇺",
+          is: "🇮🇸",
+          ig: "🇳🇬",
+          ilo: "🇵🇭",
+          id: "🇮🇩",
+          ga: "🇮🇪",
+          it: "🇮🇹",
+          ja: "🇯🇵",
+          jv: "🇮🇩",
+          kn: "🇮🇳",
+          kk: "🇰🇿",
+          km: "🇰🇭",
+          rw: "🇷🇼",
+          gom: "🇮🇳",
+          ko: "🇰🇷",
+          kri: "🇸🇱",
+          ku: "🇮🇶",
+          ckb: "🇮🇶",
+          ky: "🇰🇬",
+          lo: "🇱🇦",
+          la: "🇻🇦",
+          lv: "🇱🇻",
+          ln: "🇨🇬",
+          lt: "🇱🇹",
+          lg: "🇺🇬",
+          lb: "🇱🇺",
+          mk: "🇲🇰",
+          mai: "🇮🇳",
+          mg: "🇲🇬",
+          ms: "🇲🇾",
+          ml: "🇮🇳",
+          mt: "🇲🇹",
+          mi: "🇳🇿",
+          mr: "🇮🇳",
+          "mni-Mtei": "🇮🇳",
+          lus: "🇮🇳",
+          mn: "🇲🇳",
+          my: "🇲🇲",
+          ne: "🇳🇵",
+          no: "🇳🇴",
+          or: "🇮🇳",
+          om: "🇪🇹",
+          ps: "🇦🇫",
+          fa: "🇮🇷",
+          pl: "🇵🇱",
+          pt: "🇵🇹",
+          pa: "🇮🇳",
+          qu: "🇵🇪",
+          ro: "🇷🇴",
+          ru: "🇷🇺",
+          sm: "🇼🇸",
+          sa: "🇮🇳",
+          gd: "🏴",
+          nso: "🇿🇦",
+          sr: "🇷🇸",
+          st: "🇱🇸",
+          sn: "🇿🇼",
+          sd: "🇵🇰",
+          si: "🇱🇰",
+          sk: "🇸🇰",
+          sl: "🇸🇮",
+          so: "🇸🇴",
+          es: "🇪🇸",
+          su: "🇮🇩",
+          sw: "🇹🇿",
+          sv: "🇸🇪",
+          tg: "🇹🇯",
+          ta: "🇮🇳",
+          tt: "🇷🇺",
+          te: "🇮🇳",
+          th: "🇹🇭",
+          ti: "🇪🇷",
+          ts: "🇿🇦",
+          tr: "🇹🇷",
+          tk: "🇹🇲",
+          tw: "🇬🇭",
+          uk: "🇺🇦",
+          ur: "🇵🇰",
+          ug: "🇺🇬",
+          uz: "🇺🇿",
+          vi: "🇻🇳",
+          cy: "🏴",
+          xh: "🇿🇦",
+          yi: "🇮🇱",
+          yo: "🇳🇬",
+          zu: "🇿🇦"
+        };
+        config.innerHTML += "\n          <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 13 ? n.substring(0, 13) + "..." : i) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"dropdown\">\n<button class=\"btn btn-secondary dropdown-toggle shadow\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" style=\"outline: none;border-style: none; margin-top: -7px;\" id=\"languager\">" + (d[e[n]] === undefined ? "🌍" : d[e[n]]) + " \n" + (s[e[n]] === undefined ? "Default" : s[e[n]]) + "\n</button>\n<ul class=\"dropdown-menu scrollable-menu leng\" id=\"storle\">\n\n</ul>\n</div>\n          </td>\n      </tr>";
+        a = 0;
+        for (const n in s) {
+          a++;
+          document.getElementById("storle").innerHTML += "\n      <li class=\"dropdown-item leng\" onClick=\"SwitchLanguage('" + s[n] + "', '" + n + "')\">" + d[n] + " " + s[n] + "</li>\n      ";
+          if (a !== Object.keys(s).length) {
+            document.getElementById("storle").innerHTML += "<hr class=\"dropdown-divider\">";
+          }
+        }
+      }
+      if (n == "TimeZone") {
+        let s = ["Asia/Manila", "Asia/Chita", "Asia/Ust-Nera", "Australia/ACT", "Etc/GMT+12", "Etc/GMT-13", "Etc/GMT-14", "Pacific/Gambier", "Pacific/Pitcairn", "US/Arizona", "US/Central", "US/East-Indiana", "Africa/Abidjan", "Africa/Addis_Ababa", "Africa/Algiers", "Africa/Blantyre", "America/Anguilla", "America/Araguaina", "America/Godthab", "America/Scoresbysund", "America/St_Johns", "Antarctica/Davis", "Antarctica/Mawson", "Antarctica/Vostok", "Asia/Baku", "Asia/Calcutta", "Asia/Kabul", "Asia/Kathmandu", "Asia/Rangoon", "Asia/Tehran", "Australia/Adelaide", "Australia/Darwin", "Australia/Eucla", "NZ-CHAT", "Pacific/Marquesas"];
+        config.innerHTML += "\n          <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 13 ? n.substring(0, 13) + "..." : i) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"dropdown\">\n<button class=\"btn btn-secondary dropdown-toggle leng shadow\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" style=\"outline: none;border-style: none; margin-top: -7px;\" id=\"timezoners\">\n" + e[n] + "\n</button>\n<ul class=\"dropdown-menu scrollable-menu leng\" id=\"rper\">\n\n</ul>\n</div>\n          </td>\n      </tr>";
+        a = 0;
+        for (const n of s) {
+          document.getElementById("rper").innerHTML += "\n      <li class=\"dropdown-item leng\" onClick=\"TimeZoners('" + n + "', '" + n + "')\">" + n + " - " + o[a] + "</li>\n      ";
+          a++;
+          if (a !== s.length) {
+            document.getElementById("rper").innerHTML += "<hr class=\"dropdown-divider\">";
+          }
+        }
+      }
+      if (n == "RankupMode") {
+        let o = ["canvas", "gifcanvas", "image", "video", "gif", "random", "none"];
+        config.innerHTML += "\n          <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 13 ? n.substring(0, 13) + "..." : i) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"dropdown\">\n<button class=\"btn btn-secondary dropdown-toggle shadow\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" style=\"outline: none;border-style: none; margin-top: -7px;\" id=\"rapers\">\n" + e[n] + "\n</button>\n<ul class=\"dropdown-menu scrollable-menu leng\" id=\"rpers\">\n\n</ul>\n</div>\n          </td>\n      </tr>";
+        a = 0;
+        for (const n of o) {
+          a++;
+          document.getElementById("rpers").innerHTML += "\n      <li class=\"dropdown-item leng\" onClick=\"rankupModing('" + n + "', '" + n + "')\">" + n + "</li>\n      ";
+          if (a !== o.length) {
+            document.getElementById("rpers").innerHTML += "<hr class=\"dropdown-divider\">";
+          }
+        }
+      }
+      if (n == "BanTemplate") {
+        let o = ["none", "image", "video", "gif", "random"];
+        config.innerHTML += "\n          <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 13 ? n.substring(0, 13) + "..." : i) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"dropdown\">\n<button class=\"btn btn-secondary dropdown-toggle shadow\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" style=\"outline: none;border-style: none; margin-top: -7px;\" id=\"bantemplator\">\n" + e[n] + "\n</button>\n<ul class=\"dropdown-menu scrollable-menu leng\" id=\"bantemplatesr\">\n\n</ul>\n</div>\n          </td>\n      </tr>";
+        a = 0;
+        for (const n of o) {
+          a++;
+          document.getElementById("bantemplatesr").innerHTML += "\n      <li class=\"dropdown-item leng\" onClick=\"banTemplators('" + n + "', '" + n + "')\">" + n + "</li>\n      ";
+          if (a !== o.length) {
+            document.getElementById("bantemplatesr").innerHTML += "<hr class=\"dropdown-divider\">";
+          }
+        }
+      }
+      if (n == "type") {
+        let o = ["default", "vip"];
+        config.innerHTML += "\n          <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 13 ? n.substring(0, 13) + "..." : i) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"dropdown\">\n<button class=\"btn btn-secondary dropdown-toggle shadow\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" style=\"outline: none;border-style: none; margin-top: -7px;\" id=\"typeofbots\">\n" + e[n] + "\n</button>\n<ul class=\"dropdown-menu scrollable-menu leng\" id=\"typeofbot\">\n\n</ul>\n</div>\n          </td>\n      </tr>";
+        a = 0;
+        for (const n of o) {
+          a++;
+          document.getElementById("typeofbot").innerHTML += "\n      <li class=\"dropdown-item leng\" onClick=\"Typeofbot('" + n + "', '" + n + "')\">" + n + "</li>\n      ";
+          if (a !== o.length) {
+            document.getElementById("typeofbot").innerHTML += "<hr class=\"dropdown-divider\">";
+          }
+        }
+      }
+      if (n == "WelcomeMode") {
+        let o = ["canvas", "gifcanvas", "image", "video", "gif", "random", "none"];
+        config.innerHTML += "\n          <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 13 ? n.substring(0, 13) + "..." : i) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"dropdown\">\n<button class=\"btn btn-secondary dropdown-toggle shadow\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" style=\"outline: none;border-style: none; margin-top: -7px;\" id=\"wlcms\">\n" + e[n] + "\n</button>\n<ul class=\"dropdown-menu scrollable-menu leng\" id=\"wlcm\">\n\n</ul>\n</div>\n          </td>\n      </tr>";
+        a = 0;
+        for (const n of o) {
+          a++;
+          document.getElementById("wlcm").innerHTML += "\n      <li class=\"dropdown-item leng\" onClick=\"welcomeModing('" + n + "', '" + n + "')\">" + n + "</li>\n      ";
+          if (a !== o.length) {
+            document.getElementById("wlcm").innerHTML += "<hr class=\"dropdown-divider\">";
+          }
+        }
+      }
+      if (n == "LeaveMode") {
+        let o = ["canvas", "gifcanvas", "image", "video", "gif", "random", "none"];
+        config.innerHTML += "\n          <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 13 ? n.substring(0, 13) + "..." : i) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"dropdown\">\n<button class=\"btn btn-secondary dropdown-toggle shadow\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" style=\"outline: none;border-style: none; margin-top: -7px;\" id=\"lavs\">\n" + e[n] + "\n</button>\n<ul class=\"dropdown-menu scrollable-menu leng\" id=\"lavss\">\n\n</ul>\n</div>\n          </td>\n      </tr>";
+        a = 0;
+        for (const n of o) {
+          a++;
+          document.getElementById("lavss").innerHTML += "\n      <li class=\"dropdown-item leng\" onClick=\"leaveModing('" + n + "', '" + n + "')\">" + n + "</li>\n      ";
+          if (a !== o.length) {
+            document.getElementById("lavss").innerHTML += "<hr class=\"dropdown-divider\">";
+          }
+        }
+      }
+      if (typeof e[n] == "boolean" && e[n] == 0 || e[n] == "disable") {
+        config.innerHTML += "              \n        <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 14 ? i.substring(0, 13) + "<br>" + i.substring(13, n.length) : i) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"form-check form-switch\">\n            <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"" + n + "\" onchange=\"switchData('" + n + "')\" style=\" height: 21px;width: 42px; margin-top:" + (n.length >= 14 ? "14px" : "2px") + ";\">\n            </div>\n            </td>\n      </tr>\n      ";
+        document.getElementById(n).checked = false;
+      }
+      if (typeof e[n] == "boolean" && e[n] == 1 || e[n] == "enable") {
+        config.innerHTML += "              \n      <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 14 ? i.substring(0, 13) + "<br>" + i.substring(13, n.length) : i) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"form-check form-switch\">\n            <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"" + n + "\" onchange=\"switchData('" + n + "')\" style=\" height: 21px;width: 42px; margin-top: " + (n.length >= 14 ? "14px" : "2px") + ";\" checked>\n            </div>\n            </td>\n      </tr>\n      ";
+        document.getElementById(n).checked = true;
+      }
+      if (n !== "DisableCommands" && n !== "DisableEvents" && Array.isArray(e[n])) {
+        inputData.push(n);
+        config.innerHTML += "              \n          <tr>\n          <td class=\"tableOfConfig\">" + (n.length >= 14 ? i.substring(0, 13) + "<br>" + i.substring(13, n.length) : i) + "</td>\n          <td class=\"tableOfConfig\"><textarea class=\"editable shadow\" id=\"" + n + "\" autocomplete=\"off\" style=\"margin-top: " + (n.length >= 14 ? "9px" : "0") + ";\">" + JSON.stringify(e[n]) + "</textarea></td>\n          </tr>\n          ";
+      }
+      if (n == "prefix") {
+        inputData.push(n);
+        config.innerHTML += "              \n        <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 13 ? n.substring(0, 13) + "..." : i) + "</td>\n        <td class=\"tableOfConfig\"><textarea class=\"editable shadow\" id=\"" + n + "\" autocomplete=\"off\">" + e[n] + "</textarea></td>\n      </tr>\n      ";
+      }
+      if (n != "type" && n != "LeaveMode" && n != "WelcomeMode" && n != "Automated" && n != "BanTemplate" && n != "PerformanceModeConfig" && n != "RankupMode" && n != "TimeZone" && n != "language" && n != "Addons" && !inputData.includes(n) && n != "DisableCommands" && n != "DisableEvents" && n != "FcaOptions" && n != "adminbot" && e[n] != "disable" && e[n] != "enable" && e[n] != 1 && e[n] != 0 && !Array.isArray(e[n]) && n != "Key") {
+        inputData.push(n);
+        config.innerHTML += "              \n        <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 14 ? i.substring(0, 13) + "<br>" + i.substring(13, n.length) : i) + "</td>\n        <td class=\"tableOfConfig\"><textarea class=\"editable shadow\" id=\"" + n + "\" autocomplete=\"off\" style=\"margin-top: " + (n.length >= 14 ? "9px" : "0") + ";\">" + e[n] + "</textarea></td>\n      </tr>\n      ";
+      }
+    }
+    config.innerHTML += "\n      <hr class=\"border border-secondary border-3 opacity-60\">\n      <h4 class=\"mostContentColor\" style=\"font-family: 'Kanit', sans-serif; margin-top: 15px; margin-left:10px;\" title=\"Designed by Freepik\"><img src=\"icon/performance.png\" style=\"width: 60px; margin-top: -10px;\" class=\"tableOfConfig\"></img> Performance Mode</h4>\n          <hr class=\"border border-secondary border-3 opacity-60\">\n  ";
+    e = configData.PerformanceModeConfig;
+    for (const n in e) {
+      let o = n.replace(n[0], n[0].toUpperCase());
+      if (typeof e[n] == "boolean" && e[n] == 0 || e[n] == "disable") {
+        config.innerHTML += "              \n        <tr>\n        <td class=\"tableOfConfig\">" + o + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"form-check form-switch\">\n            <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"" + (n + "{data}") + "\" onchange=\"switchData('" + (n + "{data}") + "')\" style=\" height: 21px;width: 42px; margin-top: 2px;\">\n            </div>\n            </td>\n      </tr>\n      ";
+        document.getElementById(n + "{data}").checked = false;
+      }
+      if (typeof e[n] == "boolean" && e[n] == 1 || e[n] == "enable") {
+        config.innerHTML += "              \n      <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 13 ? n.substring(0, 13) + "..." : o) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"form-check form-switch\">\n            <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"" + (n + "{data}") + "\" onchange=\"switchData('" + (n + "{data}") + "')\" style=\" height: 21px;width: 42px; margin-top: 2px;\" checked>\n            </div>\n            </td>\n      </tr>\n      ";
+        document.getElementById(n + "{data}").checked = true;
+      }
+      if (n != "language" && n != "Addons" && n != "DisableCommands" && n != "DisableEvents" && n != "adminbot" && e[n] != "disable" && e[n] != "enable" && e[n] != 1 && e[n] != 0) {
+        inputData.push(n);
+        config.innerHTML += "              \n        <tr>\n        <td class=\"tableOfConfig\">" + o + "</td>\n        <td class=\"tableOfConfig\"><textarea class=\"editable shadow\" id=\"" + n + "\" autocomplete=\"off\" style=\"width: 50px;\">" + e[n] + "</textarea></td>\n      </tr>\n      ";
+      }
+    }
+    config.innerHTML += "\n      <hr class=\"border border-secondary border-3 opacity-60\">\n      <h4 class=\"mostContentColor\" style=\"font-family: 'Kanit', sans-serif; margin-top: 15px; margin-left:10px;\" title=\"Designed by Freepik\"><img src=\"icon/automated.png\" style=\"width: 60px; margin-top: -10px;\" class=\"tableOfConfig\"></img> Automated</h4>\n          <hr class=\"border border-secondary border-3 opacity-60\">\n  ";
+    e = configData.Automated;
+    for (const n in e) {
+      let o = n.replace(n[0], n[0].toUpperCase());
+      if (typeof e[n] == "boolean" && e[n] == 0 || e[n] == "disable") {
+        config.innerHTML += "              \n          <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 14 ? o.substring(0, 13) + "<br>" + o.substring(13, n.length) : o) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"form-check form-switch\">\n            <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"" + n + "\" onchange=\"switchData('" + n + "')\" style=\" height: 21px;width: 42px; margin-top: " + (n.length >= 14 ? "14px" : "2px") + ";\">\n            </div>\n            </td>\n      </tr>\n      ";
+        document.getElementById(n).checked = false;
+      }
+      if (typeof e[n] == "boolean" && e[n] == 1 || e[n] == "enable") {
+        config.innerHTML += "              \n        <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 14 ? o.substring(0, 13) + "<br>" + o.substring(13, n.length) : o) + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"form-check form-switch\">\n            <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"" + n + "\" onchange=\"switchData('" + n + "')\" style=\" height: 21px;width: 42px; margin-top: " + (n.length >= 14 ? "14px" : "2px") + ";\" checked>\n            </div>\n            </td>\n      </tr>\n      ";
+        document.getElementById(n).checked = true;
+      }
+      if (n != "language" && n != "Addons" && n != "DisableCommands" && n != "DisableEvents" && n != "adminbot" && e[n] != "disable" && e[n] != "enable" && e[n] != 1 && e[n] != 0) {
+        inputData.push(n);
+        config.innerHTML += "              \n        <tr>\n        <td class=\"tableOfConfig\">" + (n.length >= 14 ? o.substring(0, 13) + "<br>" + o.substring(13, n.length) : o) + "</td>\n        <td class=\"tableOfConfig\"><textarea class=\"editable shadow\" id=\"" + n + "\" autocomplete=\"off\" style=\"margin-top: " + (n.length >= 14 ? "9px" : "0") + ";\">" + e[n] + "</textarea></td>\n      </tr>\n      ";
+      }
+    }
+    config.innerHTML += "\n      <hr class=\"border border-secondary border-3 opacity-60\">\n      <h4 class=\"mostContentColor\" style=\"font-family: 'Kanit', sans-serif; margin-top: 15px; margin-left:10px;\" title=\"Designed by Freepik\"><img src=\"icon/options.png\" style=\"width: 60px; margin-top: -10px;\" class=\"tableOfConfig\"></img> Fca Options</h4>\n          <hr class=\"border border-secondary border-3 opacity-60\">\n  ";
+    e = configData.FcaOptions;
+    for (const n in e) {
+      let o = 0;
+      let a = n.replace(n[0], n[0].toUpperCase());
+      if (typeof e[n] == "boolean" && e[n] == 0 || e[n] == "disable") {
+        config.innerHTML += "              \n        <tr>\n        <td class=\"tableOfConfig\">" + a + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"form-check form-switch\">\n            <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"" + n + "\" onchange=\"switchData('" + n + "')\" style=\" height: 21px;width: 42px; margin-top: 2px;\">\n            </div>\n            </td>\n      </tr>\n      ";
+        document.getElementById(n).checked = false;
+      }
+      if (typeof e[n] == "boolean" && e[n] == 1 || e[n] == "enable") {
+        config.innerHTML += "              \n      <tr>\n        <td class=\"tableOfConfig\">" + a + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"form-check form-switch\">\n            <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"" + n + "\" onchange=\"switchData('" + n + "')\" style=\" height: 21px;width: 42px; margin-top: 2px;\" checked>\n            </div>\n            </td>\n      </tr>\n      ";
+        document.getElementById(n).checked = true;
+      }
+      if (n == "logLevel") {
+        let i = ["silent", "error", "silly", "verbose", "info", "http", "warn"];
+        config.innerHTML += "\n          <tr>\n        <td class=\"tableOfConfig\">" + a + "</td>\n        <td class=\"tableOfConfig\">\n          <div class=\"dropdown\">\n<button class=\"btn btn-secondary dropdown-toggle shadow\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" style=\"outline: none;border-style: none; margin-top: -7px;\" id=\"loggers\">\n" + e[n] + "\n</button>\n<ul class=\"dropdown-menu scrollable-menu leng\" id=\"logslevels\">\n\n</ul>\n</div>\n          </td>\n      </tr>";
+        for (const n of i) {
+          o++;
+          document.getElementById("logslevels").innerHTML += "\n      <li class=\"dropdown-item leng\" onClick=\"logsLevels('" + n + "', '" + n + "')\">" + n + "</li>\n      ";
+          if (o !== i.length) {
+            document.getElementById("logslevels").innerHTML += "<hr class=\"dropdown-divider\">";
+          }
+        }
+      }
+      if (n != "logLevel" && n != "language" && n != "Addons" && n != "DisableCommands" && n != "DisableEvents" && n != "adminbot" && e[n] != "disable" && e[n] != "enable" && e[n] != 1 && e[n] != 0) {
+        inputData.push(n);
+        config.innerHTML += "              \n        <tr>\n        <td class=\"tableOfConfig\">" + a + "</td>\n        <td class=\"tableOfConfig\"><textarea class=\"editable shadow\" id=\"" + n + "\" autocomplete=\"off\">" + e[n] + "</textarea></td>\n      </tr>\n      ";
+      }
+    }
+    config.innerHTML += "<div style=\"margin-top: 20px;\"></div>";
+  }).catch(n => {});
+}
+config.innerHTML += "\n    <h4 class=\"mostContentColor\" style=\"font-family: 'Kanit', sans-serif; margin-top: 15px; margin-left:10px;\" title=\"Designed by Freepik\"><img src=\"icon/settings.png\" style=\"width: 60px; margin-top: -10px;\" class=\"tableOfConfig\"></img> Configuration</h4>\n          <hr class=\"border border-secondary border-3 opacity-60\">\n        ";
+getInfo();
+let automs = ["AutoReact", "AutoLeaveMode", "AutoLeaveInactiveGroupMode", "AutoOffBot", "AutoOffBotStartSleep", "AutoOffBotSendMessage", "AutoOffBotEndSleep", "AutoGreet", "AutoGreetWithSticker", "AutoGreetSendPerHour", "HolidayAutoGreet", "ChristmasCountdown", "ChristmasCountdownMsg", "AcceptFriendRequest", "AutoPending", "PendingMsg", "AutoBioStatus", "AutoBioStatusSetPerHour", "BioStatus", "AutoLeave"];
+function getData(n) {
+  if (["forceLogin", "listenEvents", "pauseLog", "logLevel", "selfListen", "autoMarkRead", "userAgent", "autoReconnect"].some(e => e == n)) {
+    configData.FcaOptions[n] = document.getElementById(n).value;
+  } else if (["ThreadLimit", "ThreadPerResponseLimit"].some(e => e == n)) {
+    configData.PerformanceModeConfig[n] = parseInt(document.getElementById(n).value);
+  } else if (automs.some(e => e == n)) {
+    configData.Automated[n] = document.getElementById(n).value;
+  } else {
+    configData[n] = document.getElementById(n).value;
+  }
+}
+function switchData(n) {
+  if (["forceLogin", "listenEvents", "pauseLog", "logLevel", "selfListen", "autoMarkRead", "userAgent", "autoReconnect"].some(e => e == n)) {
+    configData.FcaOptions[n] = document.getElementById(n).checked;
+  } else if (automs.some(e => e == n)) {
+    configData.Automated[n] = document.getElementById(n).checked;
+  } else if (["AutoLeaveInactiveGroupMode{data}", "AutoLeaveMode{data}", "resend{data}", "LanguageAndTimeZone_Detector{data}", "Scheduler{data}", "nsfw{data}", "UsersPhoto{data}"].some(e => e == n)) {
+    configData.PerformanceModeConfig[n.replace("{data}", "")] = document.getElementById(n).checked;
+  } else {
+    configData[n] = document.getElementById(n).checked;
+  }
+}
+function SwitchLanguage(n, e) {
+  configData.language = e;
+  document.getElementById("languager").innerHTML = n;
+}
+function TimeZoners(n, e) {
+  configData.TimeZone = e;
+  document.getElementById("timezoners").innerHTML = n;
+}
+function rankupModing(n, e) {
+  configData.RankupMode = e;
+  document.getElementById("rapers").innerHTML = n;
+}
+function welcomeModing(n, e) {
+  configData.WelcomeMode = e;
+  document.getElementById("wlcms").innerHTML = n;
+}
+function leaveModing(n, e) {
+  configData.LeaveMode = e;
+  document.getElementById("lavs").innerHTML = n;
+}
+function banTemplators(n, e) {
+  configData.BanTemplate = e;
+  document.getElementById("bantemplator").innerHTML = n;
+}
+function Typeofbot(n, e) {
+  configData.type = e;
+  document.getElementById("typeofbots").innerHTML = n;
+}
+function logsLevels(n, e) {
+  configData.FcaOptions.logLevel = e;
+  document.getElementById("loggers").innerHTML = n;
+}
+function SaveAndRestart() {
+  for (const n of inputData) {
+    getData(n);
+  }
+  configData.login = JSON.parse(document.getElementById("login").value);
+  fetch("/graphql", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      token: tokenizer,
+      tokenizer: "configuration",
+      type: "save",
+      data: configData
+    })
+  }).then(e => e.json()).then(e => {
+    if (e.success == 1) {
+      Swal.fire("Successfully save!", "Successfully save configuration.", "success");
+    }
+  }).catch(n => {});
+}
+function _0x497cd7(n) {
+  function e(n) {
+    if (typeof n === "string") {
+      return function (n) {}.constructor("while (true) {}").apply("counter");
+    }
+    if (("" + n / n).length !== 1 || n % 20 == 0) {
+      (function () {
+        return true;
+      }).constructor("debugger").call("action");
+    } else {
+      (function () {
+        return false;
+      }).constructor("debugger").apply("stateObject");
+    }
+    e(++n);
+  }
+  try {
+    if (n) {
+      return e;
+    }
+    e(0);
+  } catch (n) {}
+}
