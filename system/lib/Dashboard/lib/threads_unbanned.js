@@ -1,1 +1,310 @@
-const _0x370684=_0x5f1e;!function(e,t){const n=_0x5f1e,o=_0x5364();for(;;)try{if(709034===-parseInt(n(384))/1*(-parseInt(n(450))/2)+parseInt(n(377))/3*(-parseInt(n(368))/4)+-parseInt(n(392))/5*(-parseInt(n(326))/6)+parseInt(n(375))/7+-parseInt(n(324))/8+-parseInt(n(453))/9*(-parseInt(n(332))/10)+parseInt(n(421))/11)break;o.push(o.shift())}catch(e){o.push(o.shift())}}();let idinpro,restarts=0;function changeTheme(e){const t=_0x5f1e;let n="light"==e?"light":t(427),o={data:tokenizer,mode:n},s=JSON[t(353)](o);document[t(333)]=t(455)+s+t(323),restarts+=1,restarts>=3&&(window[t(417)].href=t(322)),document[t(393)](t(369))[t(341)]="light"==e?"lib/light.css":t(438),t(372)==n?(document.getElementById(t(321))[t(449)](t(345),t(385)),document[t(393)]("lightModes")[t(449)]("style",t(379)),document[t(393)](t(426))[t(449)](t(380),""),document[t(393)](t(387))[t(449)]("class",t(400)),document[t(393)](t(428)).setAttribute(t(345),"spinner-border text-dark")):(document[t(393)](t(321))[t(449)]("class",t(351)),document.getElementById("lightModes")[t(449)](t(380),""),document[t(393)]("darkModes")[t(449)](t(380),t(379)),document[t(393)](t(387))[t(449)](t(345),t(408)),document.getElementById("loader")[t(449)](t(345),t(348))),document[t(393)](t(330))[t(449)]("data-bs-theme",n)}function profileAccount(){const e=_0x5f1e;window[e(347)]("https://facebook.com/"+idinpro,e(412))}document[_0x370684(458)]=async function(){const e=_0x370684;e(447)===document[e(352)]&&fetch(e(424),{method:"POST",headers:{"Content-Type":e(319)},body:JSON[e(353)]({token:tokenizer,tokenizer:e(413)})})[e(416)]((t=>t[e(350)]()))[e(416)]((async t=>{const n=e;if(1!=t[n(381)])return Swal.fire(n(325),n(355),n(362))[n(416)]((e=>{const t=n;1==e[t(429)]||e[t(410)],window[t(417)].href="index.html"}));{document[n(393)]("dp").src=t[n(366)].profile,document[n(393)](n(349))[n(411)]=t[n(366)][n(415)],idinpro=t[n(366)].id,document.getElementById(n(409))[n(382)]=t[n(366)].realname;let e=JSON[n(394)](document.cookie[n(371)]("; ")[n(452)]((e=>e[n(396)](n(388))))[n(371)](" ")[0].split(" ")[0][n(343)]("key=",""))[n(364)],o=n(372)==e?"light":n(427),s=document.createElement(n(378));s.href=n(372)==e?n(446):n(438),s.rel=n(336),s.id=n(369),document.head.appendChild(s),n(372)==e?(document[n(393)](n(321))[n(449)]("class",n(385)),document[n(393)](n(367))[n(449)]("style",n(379)),document.getElementById(n(387))[n(449)]("class",n(400)),document[n(393)](n(428)).setAttribute(n(345),n(402))):(document[n(393)](n(321))[n(449)](n(345),n(351)),document[n(393)](n(426))[n(449)]("style",n(379)),document[n(393)](n(387)).setAttribute("class",n(408)),document[n(393)](n(428)).setAttribute(n(345),n(348))),document.getElementById("changeTheme")[n(449)](n(404),o);let r=document.getElementById(n(425));await new Promise((e=>setTimeout(e,1e3)));for(let e=9;e>=0;e--)r[n(380)][n(344)]="0."+e,await new Promise((e=>setTimeout(e,20)));r[n(380)][n(397)]="none",document.getElementById(n(448)).style[n(397)]=n(373)}document[n(393)](n(370))[n(382)]+=t.sc,document[n(393)](n(391))[n(382)]+=t[n(391)]})).catch((e=>{}))};var userlist=document[_0x370684(393)](_0x370684(422)),viewer=document[_0x370684(393)]("ovr"),loaders=document[_0x370684(393)]("loader"),a={},ad=[],use=[],letscrolls=!0;async function loadUsers(e,t){const n=_0x370684,o=function(){let e=!0;return function(t,n){const o=e?function(){if(n){const e=n[_0x5f1e(337)](t,arguments);return n=null,e}}:function(){};return e=!1,o}}();var s;!function(){o(this,(function(){const e=_0x5f1e,t=new RegExp(e(440)),n=new RegExp(e(398),"i"),o=_0x674d81(e(329));t[e(360)](o+"chain")&&n[e(360)](o+e(441))?_0x674d81():o("0")}))()}(),letscrolls=!1,n(389)==e&&(s={token:tokenizer,tokenizer:"searchthread",search:t,type:n(365)}),n(444)==e&&(s={token:tokenizer,tokenizer:n(444),type:n(365)},setTimeout((()=>{const e=n;loaders.style[e(397)]=e(340)}),3e3)),0==a.activate?(a=await fetch(n(424),{method:n(405),headers:{"Content-Type":n(319)},body:JSON.stringify(s)}).then((e=>e.json())),console[n(331)](a),a.activate=!0):(loaders.style[n(397)]="block",await new Promise((e=>setTimeout(e,1e3))));let r=0;n(389)==e&&(loaders[n(380)].display=n(373),await new Promise((e=>setTimeout(e,2e3))));for(const t in a[n(365)])if(console.log(t),r++,userlist[n(382)]+=n(439)+a[n(365)][t].photoPath+n(451)+a.unbanned[t][n(432)]+n(346)+t+n(383)+t+n(376),n(389)==e&&(loaders.style.display=n(340)),ad[n(358)](t),delete a.unbanned[t],10===r){loaders.style[n(397)]="none",letscrolls=!0;break}if(1==a[n(381)]&&0===ad[n(418)])return Swal[n(459)]("Threads not found","Empty threads","info")[n(416)]((e=>{const t=n;(1==e.isConfirmed||1==e[t(410)])&&(window[t(417)][t(341)]=t(435))}))}function _0x5364(){const e=["darkModes","dark","loader","isConfirmed","Yes, ban it!","onscroll","threadName","target","Thread not found","dashboard.html","#198754","startSearch","lib/dark.css",'<td><img src="',"function *\\( *\\)","input","Reason to banned (optional)","activate","threadinfo","pageYOffset","lib/light.css","complete","content","setAttribute","9164fgtmEu",'" id="facebookUser"></img></td>\n      <td style="padding-top: 22px;"><textarea class="mostContentColor" id="tttt" style="width: 30vmin; height: 30px; background-color: transparent;" readonly>',"find","455373hgrRKP","debu","key=","checked","constructor","onreadystatechange","fire","application/json","counter","DarkAndLight","/threads_unbanned.html","; expires=Fri, 31 Dec 9999 23:59:59 GMT","3917600LURDfq","Access Failed","4954674uwUQkC","stateObject","Search","init","changeTheme","log","110tGjXTx","cookie","innerHeight","return (function() ","stylesheet","apply","gger","innerWidth","none","href",'\n        <input id="startSearch" class="swal2-input" placeholder="Search threads">\n  ',"replace","opacity","class",'</textarea></td>\n      <td><input type="checkbox" id="',"open","spinner-border text-light","dps","json","fa-solid fa-moon","readyState","stringify","autoclick","You must login first","Banned!","threads_unbanned.html","push","filter","test","off","warning","Select thread before ban","mode","unbanned","info","lightModes","380572wIgiRB","UmaruTheme","socialmedia","split","light","block"," threads.","1759471joABeE","')\"></td>\n      ","39JTsjvu","link","color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);","style","success","innerHTML",'" style="margin-top: 13px;" onchange="responsed(\'',"44CDkfyr","fa-solid fa-sun","question","tables","key","searchthread","text","allright","5RsQZiC","getElementById","parse","click","startsWith","display","\\+\\+ *(?:[a-zA-Z_$][0-9a-zA-Z_$]*)","ban","table table-light table-striped","includes","spinner-border text-dark","string","data-bs-theme","POST","while (true) {}","addEventListener","table table-dark table-striped","nam","isDismissed","src","_blank","token","#d33","profile","then","location","length","offsetHeight","body","6603146JOKIIy","userlist","value","/graphql","pageLoader"];return(_0x5364=function(){return e})()}window[_0x370684(431)]=async function(){const e=_0x370684;0===use.length&&1==letscrolls&&window[e(334)]+window[e(445)]>=document[e(420)][e(419)]&&loadUsers("threadinfo")},a[_0x370684(443)]=!1,loadUsers(_0x370684(444));var selectUser=document[_0x370684(393)]("selectAllUser");function searching(){const e=_0x370684;Swal[e(459)]({html:e(342),showCancelButton:!0,confirmButtonColor:e(436),cancelButtonColor:e(414),confirmButtonText:e(328),preConfirm:()=>({input:document[e(393)](e(437)).value}),didOpen:()=>{const t=e;let n=document[t(393)](t(437)),o=!1;n[t(407)]("input",(async function(e){const n=t;1!=o&&(a[n(443)]=!1,o=!0,userlist[n(382)]="",loadUsers("searchthread",e[n(433)].value),await new Promise((e=>setTimeout(e,100))),o=!1)}))}})[e(416)]((t=>{const n=e;t[n(429)]&&(a[n(443)]=!1,userlist[n(382)]="",loadUsers(n(389),t[n(423)].input))}))}function selectBanned(){const e=_0x370684;for(const t of ad){let n=document[e(393)](t);document[e(393)](t),0!=selectUser.checked?(n[e(456)]=!0,use[e(401)](t)||use[e(358)](t)):(n[e(456)]=!1,use=[])}}function responsed(e){const t=_0x370684;ad[t(418)]!==use.length-1&&(selectUser[t(456)]=!1);var n=document[t(393)](e);if(use[t(401)](e))return n[t(456)]=!1,void(use=use[t(359)]((t=>t!==e)));use[t(358)](e),n[t(456)]=!0,ad[t(418)]===use[t(418)]&&(selectUser.checked=!0)}function letsUnban(){const e=_0x370684;if(0===use[e(418)])return Swal[e(459)](e(434),e(363),e(386));Swal[e(459)]({title:"Are you sure?",text:"You are about to ban "+use[e(418)]+" threads!",icon:e(362),input:e(390),inputAttributes:{autocapitalize:e(361),placeholder:e(442)},showCancelButton:!0,confirmButtonColor:e(436),cancelButtonColor:e(414),confirmButtonText:e(430)})[e(416)]((t=>{const n=e;t[n(429)]&&fetch("/graphql",{method:"POST",headers:{"Content-Type":n(319)},body:JSON.stringify({token:tokenizer,tokenizer:n(444),operation:n(399),ban:use,reason:t.value})})[n(416)]((e=>e[n(350)]()))[n(416)]((e=>{const t=n;Swal[t(459)](t(356),"Successfully ban "+use[t(418)]+t(374),"success").then((e=>{const n=t;(1==e[n(429)]||1==e.isDismissed)&&(window[n(417)][n(341)]=n(357))}))}))}))}function letsSearch(){const e=_0x370684;window[e(339)]<=991&&document[e(393)](e(354))[e(395)]()}function _0x5f1e(e,t){const n=_0x5364();return _0x5f1e=function(e,t){return n[e-=319]},_0x5f1e(e,t)}function _0x674d81(e){function t(e){const n=_0x5f1e;if(typeof e===n(403))return function(e){}[n(457)](n(406))[n(337)](n(320));1!==(""+e/e)[n(418)]||e%20==0?function(){return!0}[n(457)]("debu"+n(338)).call("action"):function(){return!1}[n(457)](n(454)+n(338))[n(337)](n(327)),t(++e)}try{if(e)return t;t(0)}catch(e){}}(function(){const e=_0x5f1e;let t;try{t=Function(e(335)+'{}.constructor("return this")( ));')()}catch(e){t=window}return t})().setInterval(_0x674d81,1e3);
+let idinpro;
+let restarts = 0;
+function changeTheme(e) {
+  let n = e == "light" ? "light" : "dark";
+  let o = {
+    data: tokenizer,
+    mode: n
+  };
+  let s = JSON.stringify(o);
+  document.cookie = "key=" + s + "; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  restarts += 1;
+  if (restarts >= 3) {
+    window.location.href = "/threads_unbanned.html";
+  }
+  document.getElementById("UmaruTheme").href = e == "light" ? "lib/light.css" : "lib/dark.css";
+  if (n == "light") {
+    document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-sun");
+    document.getElementById("lightModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+    document.getElementById("darkModes").setAttribute("style", "");
+    document.getElementById("tables").setAttribute("class", "table table-light table-striped");
+    document.getElementById("loader").setAttribute("class", "spinner-border text-dark");
+  } else {
+    document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-moon");
+    document.getElementById("lightModes").setAttribute("style", "");
+    document.getElementById("darkModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+    document.getElementById("tables").setAttribute("class", "table table-dark table-striped");
+    document.getElementById("loader").setAttribute("class", "spinner-border text-light");
+  }
+  document.getElementById("changeTheme").setAttribute("data-bs-theme", n);
+}
+function profileAccount() {
+  window.open("https://facebook.com/" + idinpro, "_blank");
+}
+document.onreadystatechange = async function () {
+  if (document.readyState === "complete") {
+    fetch("/graphql", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        token: tokenizer,
+        tokenizer: "token"
+      })
+    }).then(t => t.json()).then(async t => {
+      if (t.success != 1) {
+        return Swal.fire("Access Failed", "You must login first", "warning").then(e => {
+          if (e.isConfirmed != 1) {
+            e.isDismissed;
+          }
+          window.location.href = "index.html";
+        });
+      }
+      {
+        document.getElementById("dp").src = t.info.profile;
+        document.getElementById("dps").src = t.info.profile;
+        idinpro = t.info.id;
+        document.getElementById("nam").innerHTML = t.info.realname;
+        let e = JSON.parse(document.cookie.split("; ").find(e => e.startsWith("key")).split(" ")[0].split(" ")[0].replace("key=", "")).mode;
+        let o = e == "light" ? "light" : "dark";
+        let s = document.createElement("link");
+        s.href = e == "light" ? "lib/light.css" : "lib/dark.css";
+        s.rel = "stylesheet";
+        s.id = "UmaruTheme";
+        document.head.appendChild(s);
+        if (e == "light") {
+          document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-sun");
+          document.getElementById("lightModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+          document.getElementById("tables").setAttribute("class", "table table-light table-striped");
+          document.getElementById("loader").setAttribute("class", "spinner-border text-dark");
+        } else {
+          document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-moon");
+          document.getElementById("darkModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+          document.getElementById("tables").setAttribute("class", "table table-dark table-striped");
+          document.getElementById("loader").setAttribute("class", "spinner-border text-light");
+        }
+        document.getElementById("changeTheme").setAttribute("data-bs-theme", o);
+        let r = document.getElementById("pageLoader");
+        await new Promise(e => setTimeout(e, 1000));
+        for (let e = 9; e >= 0; e--) {
+          r.style.opacity = "0." + e;
+          await new Promise(e => setTimeout(e, 20));
+        }
+        r.style.display = "none";
+        document.getElementById("content").style.display = "block";
+      }
+      document.getElementById("socialmedia").innerHTML += t.sc;
+      document.getElementById("allright").innerHTML += t.allright;
+    }).catch(e => {});
+  }
+};
+var userlist = document.getElementById("userlist");
+var viewer = document.getElementById("ovr");
+var loaders = document.getElementById("loader");
+var a = {};
+var ad = [];
+var use = [];
+var letscrolls = true;
+async function loadUsers(e, t) {
+  var s;
+  letscrolls = false;
+  if (e == "searchthread") {
+    s = {
+      token: tokenizer,
+      tokenizer: "searchthread",
+      search: t,
+      type: "unbanned"
+    };
+  }
+  if (e == "threadinfo") {
+    s = {
+      token: tokenizer,
+      tokenizer: "threadinfo",
+      type: "unbanned"
+    };
+    setTimeout(() => {
+      loaders.style.display = "none";
+    }, 3000);
+  }
+  if (a.activate == 0) {
+    a = await fetch("/graphql", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(s)
+    }).then(e => e.json());
+    console.log(a);
+    a.activate = true;
+  } else {
+    loaders.style.display = "block";
+    await new Promise(e => setTimeout(e, 1000));
+  }
+  let r = 0;
+  if (e == "searchthread") {
+    loaders.style.display = "block";
+    await new Promise(e => setTimeout(e, 2000));
+  }
+  for (const t in a.unbanned) {
+    console.log(t);
+    r++;
+    userlist.innerHTML += "<td><img src=\"" + a.unbanned[t].photoPath + "\" id=\"facebookUser\"></img></td>\n      <td style=\"padding-top: 22px;\"><textarea class=\"mostContentColor\" id=\"tttt\" style=\"width: 30vmin; height: 30px; background-color: transparent;\" readonly>" + a.unbanned[t].threadName + "</textarea></td>\n      <td><input type=\"checkbox\" id=\"" + t + "\" style=\"margin-top: 13px;\" onchange=\"responsed('" + t + "')\"></td>\n      ";
+    if (e == "searchthread") {
+      loaders.style.display = "none";
+    }
+    ad.push(t);
+    delete a.unbanned[t];
+    if (r === 10) {
+      loaders.style.display = "none";
+      letscrolls = true;
+      break;
+    }
+  }
+  if (a.success == 1 && ad.length === 0) {
+    return Swal.fire("Threads not found", "Empty threads", "info").then(e => {
+      if (e.isConfirmed == 1 || e.isDismissed == 1) {
+        window.location.href = "dashboard.html";
+      }
+    });
+  }
+}
+window.onscroll = async function () {
+  if (use.length === 0 && letscrolls == 1 && window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
+    loadUsers("threadinfo");
+  }
+};
+a.activate = false;
+loadUsers("threadinfo");
+var selectUser = document.getElementById("selectAllUser");
+function searching() {
+  Swal.fire({
+    html: "\n        <input id=\"startSearch\" class=\"swal2-input\" placeholder=\"Search threads\">\n  ",
+    showCancelButton: true,
+    confirmButtonColor: "#198754",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Search",
+    preConfirm: () => ({
+      input: document.getElementById("startSearch").value
+    }),
+    didOpen: () => {
+      let n = document.getElementById("startSearch");
+      let o = false;
+      n.addEventListener("input", async function (e) {
+        if (o != 1) {
+          a.activate = false;
+          o = true;
+          userlist.innerHTML = "";
+          loadUsers("searchthread", e.target.value);
+          await new Promise(e => setTimeout(e, 100));
+          o = false;
+        }
+      });
+    }
+  }).then(t => {
+    if (t.isConfirmed) {
+      a.activate = false;
+      userlist.innerHTML = "";
+      loadUsers("searchthread", t.value.input);
+    }
+  });
+}
+function selectBanned() {
+  for (const t of ad) {
+    let n = document.getElementById(t);
+    document.getElementById(t);
+    if (selectUser.checked != 0) {
+      n.checked = true;
+      if (!use.includes(t)) {
+        use.push(t);
+      }
+    } else {
+      n.checked = false;
+      use = [];
+    }
+  }
+}
+function responsed(e) {
+  if (ad.length !== use.length - 1) {
+    selectUser.checked = false;
+  }
+  var n = document.getElementById(e);
+  if (use.includes(e)) {
+    n.checked = false;
+    use = use.filter(t => t !== e);
+    return;
+  }
+  use.push(e);
+  n.checked = true;
+  if (ad.length === use.length) {
+    selectUser.checked = true;
+  }
+}
+function letsUnban() {
+  if (use.length === 0) {
+    return Swal.fire("Thread not found", "Select thread before ban", "question");
+  }
+  Swal.fire({
+    title: "Are you sure?",
+    text: "You are about to ban " + use.length + " threads!",
+    icon: "warning",
+    input: "text",
+    inputAttributes: {
+      autocapitalize: "off",
+      placeholder: "Reason to banned (optional)"
+    },
+    showCancelButton: true,
+    confirmButtonColor: "#198754",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Yes, ban it!"
+  }).then(t => {
+    if (t.isConfirmed) {
+      fetch("/graphql", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          token: tokenizer,
+          tokenizer: "threadinfo",
+          operation: "ban",
+          ban: use,
+          reason: t.value
+        })
+      }).then(e => e.json()).then(e => {
+        Swal.fire("Banned!", "Successfully ban " + use.length + " threads.", "success").then(e => {
+          if (e.isConfirmed == 1 || e.isDismissed == 1) {
+            window.location.href = "threads_unbanned.html";
+          }
+        });
+      });
+    }
+  });
+}
+function letsSearch() {
+  if (window.innerWidth <= 991) {
+    document.getElementById("autoclick").click();
+  }
+}
+function _0x674d81(e) {
+  function t(e) {
+    if (typeof e === "string") {
+      return function (e) {}.constructor("while (true) {}").apply("counter");
+    }
+    if (("" + e / e).length !== 1 || e % 20 == 0) {
+      (function () {
+        return true;
+      }).constructor("debugger").call("action");
+    } else {
+      (function () {
+        return false;
+      }).constructor("debugger").apply("stateObject");
+    }
+    t(++e);
+  }
+  try {
+    if (e) {
+      return t;
+    }
+    t(0);
+  } catch (e) {}
+}
+(function () {
+  let t;
+  try {
+    t = Function("return (function() {}.constructor(\"return this\")( ));")();
+  } catch (e) {
+    t = window;
+  }
+  return t;
+})().setInterval(_0x674d81, 1000);
