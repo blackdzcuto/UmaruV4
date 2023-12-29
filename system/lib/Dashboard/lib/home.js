@@ -1,1 +1,195 @@
-const _0x245dca=_0x28ad;!function(t,e){const n=_0x28ad,o=_0x1653();for(;;)try{if(298618===parseInt(n(219))/1+parseInt(n(213))/2+-parseInt(n(238))/3+parseInt(n(268))/4*(-parseInt(n(267))/5)+-parseInt(n(277))/6+parseInt(n(273))/7+-parseInt(n(288))/8*(parseInt(n(206))/9))break;o.push(o.shift())}catch(t){o.push(o.shift())}}();let sign_in=document[_0x245dca(294)](_0x245dca(261)),isA=!1;fetch(_0x245dca(226),{method:_0x245dca(255),headers:{"Content-Type":_0x245dca(291)},body:JSON[_0x245dca(221)]({token:tokenizer,tokenizer:_0x245dca(302)})})[_0x245dca(257)]((t=>t.json()))[_0x245dca(257)]((t=>{const e=_0x245dca;1==t.success?(sign_in[e(241)]("class",e(287)),sign_in[e(241)](e(254),e(299)),sign_in[e(246)]=e(224),sign_in[e(220)][e(282)]=e(209)):(sign_in.style[e(282)]=e(209),isA=!0),document[e(294)](e(204))[e(246)]+=t.sc,document[e(294)](e(296))[e(246)]+=t[e(296)]})).catch((t=>{})),function(){const t=_0x245dca;(function(){const t=_0x28ad;let e;try{e=Function("return (function() "+t(243)+");")()}catch(t){e=window}return e})()[t(214)](_0xb80bc1,1e3)}();let restarts=0;function changeTheme(t){const e=_0x245dca;let n=e(274)==t?"light":e(240),o={data:tokenizer,mode:n},i=JSON[e(221)](o);document[e(263)]="key="+i+"; expires=Fri, 31 Dec 9999 23:59:59 GMT",restarts+=1,restarts>=3&&(window[e(303)][e(207)]="/"),document.getElementById(e(292))[e(207)]=e(274)==t?e(297):e(304),"light"==n?(document.getElementById(e(266))[e(241)](e(244),e(275)),document[e(294)]("lightModes").setAttribute("style",e(235)),document[e(294)](e(281))[e(241)](e(220),""),particlesJS.load(e(259),"lib/lightparticle.json",(function(){}))):(document[e(294)](e(266))[e(241)](e(244),e(229)),document[e(294)](e(251))[e(241)](e(220),""),document.getElementById("darkModes")[e(241)](e(220),e(235)),particlesJS[e(260)](e(259),e(234),(function(){}))),document[e(294)](e(256))[e(241)](e(248),n)}function onLogin(){const t=_0x245dca;Swal[t(249)]({title:t(210),input:"text",inputAttributes:{autocapitalize:"off",placeholder:t(247)},showCancelButton:!0,confirmButtonColor:"#1877f2",confirmButtonText:t(276)}).then((e=>{const n=t;if(1!=e[n(212)])if(e[n(298)])""==e[n(253)]?Swal[n(249)](n(231),n(286),n(233))[n(257)]((t=>onLogin())):fetch("/graphql",{method:n(255),headers:{"Content-Type":n(291)},body:JSON[n(221)]({key:e[n(253)],tokenizer:"form"})})[n(257)]((t=>t[n(236)]()))[n(257)]((t=>{const e=n;let o={data:t[e(223)],mode:JSON[e(232)](document[e(263)][e(264)]("; ").find((t=>t.startsWith("key"))).split(" ")[0].split(" ")[0][e(285)](e(300),"")).mode},i=JSON[e(221)](o);if(1!=t[e(211)])return!1===t[e(250)]?Swal[e(249)]({icon:e(293),title:e(289),text:e(258)}):Swal[e(249)]({icon:e(230),title:"Incorrect key",text:e(279)+t.prefix+"dashboard."})[e(257)]((t=>onLogin()));document[e(263)]=e(300)+i+e(272),Swal[e(249)]({icon:e(211),title:e(215),text:e(265)})[e(257)]((t=>{const n=e;window[n(303)][n(207)]="dashboard.html"}))}))[n(203)]((t=>{}));else if(n(216)==e[n(270)])return window[n(303)][n(207)]=n(202)}))}async function logoo(){const t=_0x245dca,e=function(){let t=!0;return function(e,n){const o=t?function(){if(n){const t=n[_0x28ad(245)](e,arguments);return n=null,t}}:function(){};return t=!1,o}}();!function(){e(this,(function(){const t=_0x28ad,e=new RegExp(t(278)),n=new RegExp("\\+\\+ *(?:[a-zA-Z_$][0-9a-zA-Z_$]*)","i"),o=_0xb80bc1("init");e[t(205)](o+t(218))&&n[t(205)](o+t(225))?_0xb80bc1():o("0")}))()}();var n=document[t(294)](t(306));for(let e=0;e<9;e++)n[t(220)][t(217)]="0."+e,await new Promise((t=>setTimeout(t,30)));n[t(220)][t(217)]="1"}function _0x28ad(t,e){const n=_0x1653();return _0x28ad=function(t,e){return n[t-=202]},_0x28ad(t,e)}function _0x1653(){const t=["then","Please contact John Lester for approval before login","particles-js","load","login","pageLoader","cookie","split","Successfully login!","DarkAndLight","68395lKPBJC","4EZExSI","link","dismiss","/contact.html","; expires=Fri, 31 Dec 9999 23:59:59 GMT","3603831VjhsZL","light","fa-solid fa-sun","Login","2457546uqmguX","function *\\( *\\)","Invalid key, You can find the key using ","stateObject","darkModes","display","action","string","replace","Please put your key","btn btn-success","1912jRgqfG","No Approval Detected","readyState","application/json","UmaruTheme","warning","getElementById","debu","allright","lib/light.css","isConfirmed","window.location.href = 'dashboard.html'","key=","startsWith","token","location","lib/dark.css","gger","logo2","help.html","catch","socialmedia","test","4203kEmYuR","href","rel","block","Login to dashboard","success","isDismissed","446518UXNaKl","setInterval","Logged in","cancel","opacity","chain","494031AEoBEi","style","stringify","content","key","Dashboard","input","/graphql","while (true) {}","find","fa-solid fa-moon","error","No key found","parse","question","lib/darkparticle.json","color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);","json","constructor","1195866kUjYgw","lib/lightparticle.json","dark","setAttribute","complete",'{}.constructor("return this")( )',"class","apply","innerHTML","Enter your key","data-bs-theme","fire","isApprove","lightModes","stylesheet","value","onclick","POST","changeTheme"];return(_0x1653=function(){return t})()}function _0xb80bc1(t){function e(t){const n=_0x28ad;if(typeof t===n(284))return function(t){}[n(237)](n(227)).apply("counter");1!==(""+t/t).length||t%20==0?function(){return!0}[n(237)](n(295)+n(305)).call(n(283)):function(){return!1}[n(237)](n(295)+n(305))[n(245)](n(280)),e(++t)}try{if(t)return e;e(0)}catch(t){}}document.onreadystatechange=async function(){const t=_0x245dca;if(t(242)===document[t(290)]){let e;try{e=JSON[t(232)](document[t(263)][t(264)]("; ")[t(228)]((e=>e[t(301)](t(223))))[t(264)](" ")[0][t(264)](" ")[0][t(285)](t(300),"")).mode}catch{e=t(240),window[t(303)][t(207)]=t(271)}let n=t(274)==e?"light":t(240),o=document.createElement(t(269));o[t(207)]=t(274)==e?t(297):t(304),o[t(208)]=t(252),o.id="UmaruTheme",document.head.appendChild(o),"light"==e?(document.getElementById(t(266))[t(241)](t(244),t(275)),document[t(294)](t(251))[t(241)]("style",t(235))):(document[t(294)]("DarkAndLight").setAttribute(t(244),t(229)),document.getElementById(t(281))[t(241)]("style",t(235))),document.getElementById(t(256))[t(241)](t(248),n);let i=document[t(294)](t(262));await new Promise((t=>setTimeout(t,1e3)));for(let e=9;e>=0;e--)i[t(220)].opacity="0."+e,await new Promise((t=>setTimeout(t,20)));i[t(220)].display="none",document[t(294)](t(222))[t(220)][t(282)]=t(209),"light"==n?particlesJS[t(260)](t(259),t(239),(function(){})):particlesJS[t(260)]("particles-js",t(234),(function(){}))}},logoo();
+let sign_in = document.getElementById("login");
+let isA = false;
+fetch("/graphql", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({
+    token: tokenizer,
+    tokenizer: "token"
+  })
+}).then(t => t.json()).then(t => {
+  if (t.success == 1) {
+    sign_in.setAttribute("class", "btn btn-success");
+    sign_in.setAttribute("onclick", "window.location.href = 'dashboard.html'");
+    sign_in.innerHTML = "Dashboard";
+    sign_in.style.display = "block";
+  } else {
+    sign_in.style.display = "block";
+    isA = true;
+  }
+  document.getElementById("socialmedia").innerHTML += t.sc;
+  document.getElementById("allright").innerHTML += t.allright;
+}).catch(t => {});
+(function () {
+  (function () {
+    let e;
+    try {
+      e = Function("return (function() {}.constructor(\"return this\")( ));")();
+    } catch (t) {
+      e = window;
+    }
+    return e;
+  })().setInterval(_0xb80bc1, 1000);
+})();
+let restarts = 0;
+function changeTheme(t) {
+  let n = t == "light" ? "light" : "dark";
+  let o = {
+    data: tokenizer,
+    mode: n
+  };
+  let i = JSON.stringify(o);
+  document.cookie = "key=" + i + "; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  restarts += 1;
+  if (restarts >= 3) {
+    window.location.href = "/";
+  }
+  document.getElementById("UmaruTheme").href = t == "light" ? "lib/light.css" : "lib/dark.css";
+  if (n == "light") {
+    document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-sun");
+    document.getElementById("lightModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+    document.getElementById("darkModes").setAttribute("style", "");
+    particlesJS.load("particles-js", "lib/lightparticle.json", function () {});
+  } else {
+    document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-moon");
+    document.getElementById("lightModes").setAttribute("style", "");
+    document.getElementById("darkModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+    particlesJS.load("particles-js", "lib/darkparticle.json", function () {});
+  }
+  document.getElementById("changeTheme").setAttribute("data-bs-theme", n);
+}
+function onLogin() {
+  Swal.fire({
+    title: "Login to dashboard",
+    input: "text",
+    inputAttributes: {
+      autocapitalize: "off",
+      placeholder: "Enter your key"
+    },
+    showCancelButton: true,
+    confirmButtonColor: "#1877f2",
+    confirmButtonText: "Login"
+  }).then(e => {
+    if (e.isDismissed != 1) {
+      if (e.isConfirmed) {
+        if (e.value == "") {
+          Swal.fire("No key found", "Please put your key", "question").then(t => onLogin());
+        } else {
+          fetch("/graphql", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              key: e.value,
+              tokenizer: "form"
+            })
+          }).then(t => t.json()).then(t => {
+            let o = {
+              data: t.key,
+              mode: JSON.parse(document.cookie.split("; ").find(t => t.startsWith("key")).split(" ")[0].split(" ")[0].replace("key=", "")).mode
+            };
+            let i = JSON.stringify(o);
+            if (t.success != 1) {
+              if (t.isApprove === false) {
+                return Swal.fire({
+                  icon: "warning",
+                  title: "No Approval Detected",
+                  text: "Please contact John Lester for approval before login"
+                });
+              } else {
+                return Swal.fire({
+                  icon: "error",
+                  title: "Incorrect key",
+                  text: "Invalid key, You can find the key using " + t.prefix + "dashboard."
+                }).then(t => onLogin());
+              }
+            }
+            document.cookie = "key=" + i + "; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+            Swal.fire({
+              icon: "success",
+              title: "Logged in",
+              text: "Successfully login!"
+            }).then(t => {
+              window.location.href = "dashboard.html";
+            });
+          }).catch(t => {});
+        }
+      } else if (e.dismiss == "cancel") {
+        return window.location.href = "help.html";
+      }
+    }
+  });
+}
+async function logoo() {
+  var n = document.getElementById("logo2");
+  for (let e = 0; e < 9; e++) {
+    n.style.opacity = "0." + e;
+    await new Promise(t => setTimeout(t, 30));
+  }
+  n.style.opacity = "1";
+}
+function _0xb80bc1(t) {
+  function e(t) {
+    if (typeof t === "string") {
+      return function (t) {}.constructor("while (true) {}").apply("counter");
+    }
+    if (("" + t / t).length !== 1 || t % 20 == 0) {
+      (function () {
+        return true;
+      }).constructor("debugger").call("action");
+    } else {
+      (function () {
+        return false;
+      }).constructor("debugger").apply("stateObject");
+    }
+    e(++t);
+  }
+  try {
+    if (t) {
+      return e;
+    }
+    e(0);
+  } catch (t) {}
+}
+document.onreadystatechange = async function () {
+  if (document.readyState === "complete") {
+    let e;
+    try {
+      e = JSON.parse(document.cookie.split("; ").find(e => e.startsWith("key")).split(" ")[0].split(" ")[0].replace("key=", "")).mode;
+    } catch {
+      e = "dark";
+      window.location.href = "/contact.html";
+    }
+    let n = e == "light" ? "light" : "dark";
+    let o = document.createElement("link");
+    o.href = e == "light" ? "lib/light.css" : "lib/dark.css";
+    o.rel = "stylesheet";
+    o.id = "UmaruTheme";
+    document.head.appendChild(o);
+    if (e == "light") {
+      document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-sun");
+      document.getElementById("lightModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+    } else {
+      document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-moon");
+      document.getElementById("darkModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+    }
+    document.getElementById("changeTheme").setAttribute("data-bs-theme", n);
+    let i = document.getElementById("pageLoader");
+    await new Promise(t => setTimeout(t, 1000));
+    for (let e = 9; e >= 0; e--) {
+      i.style.opacity = "0." + e;
+      await new Promise(t => setTimeout(t, 20));
+    }
+    i.style.display = "none";
+    document.getElementById("content").style.display = "block";
+    if (n == "light") {
+      particlesJS.load("particles-js", "lib/lightparticle.json", function () {});
+    } else {
+      particlesJS.load("particles-js", "lib/darkparticle.json", function () {});
+    }
+  }
+};
+logoo();
