@@ -1,1 +1,307 @@
-const _0x4b630a=_0x4f3d;!function(e,t){const n=_0x4f3d,o=_0x5975();for(;;)try{if(832919===-parseInt(n(338))/1*(parseInt(n(329))/2)+-parseInt(n(436))/3+parseInt(n(453))/4+parseInt(n(366))/5+parseInt(n(337))/6*(-parseInt(n(401))/7)+-parseInt(n(321))/8+-parseInt(n(340))/9*(-parseInt(n(324))/10))break;o.push(o.shift())}catch(e){o.push(o.shift())}}();let idinpro,restarts=0;function changeTheme(e){const t=_0x4f3d;let n=t(376)==e?t(376):t(415),o={data:tokenizer,mode:n},s=JSON.stringify(o);document[t(411)]=t(354)+s+t(384),restarts+=1,restarts>=3&&(window[t(348)][t(439)]=t(400)),document[t(426)](t(372))[t(439)]=t(376)==e?t(447):t(398),t(376)==n?(document[t(426)](t(399)).setAttribute(t(430),t(377)),document[t(426)]("lightModes").setAttribute(t(358),t(433)),document.getElementById(t(393))[t(342)](t(358),""),document[t(426)](t(327))[t(342)](t(430),"table table-light table-striped"),document.getElementById("loader")[t(342)](t(430),t(350))):(document[t(426)](t(399))[t(342)](t(430),t(456)),document.getElementById(t(333))[t(342)]("style",""),document[t(426)](t(393)).setAttribute("style",t(433)),document[t(426)](t(327))[t(342)]("class",t(341)),document[t(426)]("loader")[t(342)](t(430),t(419))),document.getElementById(t(441))[t(342)]("data-bs-theme",n)}function profileAccount(){const e=_0x4f3d;window[e(450)](e(380)+idinpro,e(403))}document[_0x4b630a(435)]=async function(){const e=_0x4b630a;"complete"===document[e(328)]&&fetch(e(406),{method:e(379),headers:{"Content-Type":e(397)},body:JSON[e(431)]({token:tokenizer,tokenizer:e(432)})}).then((t=>t[e(412)]())).then((async t=>{const n=e;if(1!=t[n(429)])return Swal.fire("Access Failed","You must login first",n(437))[n(413)]((e=>{const t=n;1==e[t(451)]||e.isDismissed,window[t(348)][t(439)]=t(352)}));{document.getElementById("dp")[n(425)]=t[n(361)][n(421)],document.getElementById(n(339))[n(425)]=t.info[n(421)],idinpro=t[n(361)].id,document.getElementById("nam")[n(378)]=t[n(361)].realname;let e=JSON[n(385)](document[n(411)][n(442)]("; ")[n(370)]((e=>e.startsWith(n(346))))[n(442)](" ")[0][n(442)](" ")[0][n(344)](n(354),""))[n(390)],o=n("light"==e?376:415),s=document[n(443)](n(387));s[n(439)]=n(376)==e?n(447):n(398),s[n(369)]=n(434),s.id="UmaruTheme",document.head[n(374)](s),n(376)==e?(document.getElementById("DarkAndLight").setAttribute(n(430),n(377)),document[n(426)](n(333))[n(342)](n(358),n(433)),document[n(426)](n(327))[n(342)]("class","table table-light table-striped"),document.getElementById(n(394))[n(342)](n(430),n(350))):(document[n(426)](n(399))[n(342)](n(430),n(456)),document[n(426)](n(393))[n(342)](n(358),n(433)),document[n(426)](n(327))[n(342)](n(430),n(341)),document[n(426)](n(394))[n(342)](n(430),n(419))),document[n(426)](n(441))[n(342)]("data-bs-theme",o);let r=document.getElementById(n(364));await new Promise((e=>setTimeout(e,1e3)));for(let e=9;e>=0;e--)r[n(358)][n(353)]="0."+e,await new Promise((e=>setTimeout(e,20)));r.style.display="none",document[n(426)](n(367))[n(358)][n(371)]=n(345)}document[n(426)](n(448))[n(378)]+=t.sc,document.getElementById(n(368)).innerHTML+=t[n(368)]}))[e(402)]((e=>{}))};var userlist=document[_0x4b630a(426)](_0x4b630a(357)),viewer=document.getElementById("ovr"),loaders=document[_0x4b630a(426)](_0x4b630a(394)),a={},ad=[],use=[],letscrolls=!0;async function loadUsers(e,t){const n=_0x4b630a,o=function(){let e=!0;return function(t,n){const o=e?function(){if(n){const e=n[_0x4f3d(449)](t,arguments);return n=null,e}}:function(){};return e=!1,o}}();var s;!function(){o(this,(function(){const e=_0x4f3d,t=new RegExp(e(445)),n=new RegExp("\\+\\+ *(?:[a-zA-Z_$][0-9a-zA-Z_$]*)","i"),o=_0x5af374("init");t.test(o+e(334))&&n[e(349)](o+e(423))?_0x5af374():o("0")}))()}(),letscrolls=!1,n(395)==e&&(ad=[],s={token:tokenizer,tokenizer:n(395),search:t,type:n(405)}),n(362)==e&&(s={token:tokenizer,tokenizer:n(362),type:n(405)},setTimeout((()=>{const e=n;loaders[e(358)].display=e(446)}),3e3)),0==a[n(391)]?(a=await fetch(n(406),{method:n(379),headers:{"Content-Type":n(397)},body:JSON[n(431)](s)})[n(413)]((e=>e.json())))[n(391)]=!0:(loaders.style.display=n(345),await new Promise((e=>setTimeout(e,1e3))));let r=0;n(395)==e&&(loaders[n(358)][n(371)]=n(345),await new Promise((e=>setTimeout(e,2e3))));for(const t in a[n(361)])if(r++,userlist[n(378)]+='<td><img src="'+(a[n(361)][t].url?a[n(361)][t][n(392)]:n(417))+'" id="facebookUser"></img></td>\n      <td style="padding-top: 22px;"><textarea class="mostContentColor" id="tttt" style="width: 40vmin; height: 30px; background-color: transparent;" readonly>'+a.info[t][n(408)]+n(396)+t+n(322)+t+n(407),n(395)==e&&(loaders[n(358)].display=n(446)),ad[n(373)](t),document.getElementById(t)[n(409)]=!1,delete a[n(361)][t],10===r){loaders[n(358)][n(371)]=n(446),letscrolls=!0;break}if(1==a[n(429)]&&0===ad[n(330)])return Swal[n(336)](n(331),n(427),"info").then((e=>{const t=n;(1==e.isConfirmed||1==e[t(452)])&&(window[t(348)][t(439)]=t(418))}))}function _0x4f3d(e,t){const n=_0x5975();return _0x4f3d=function(e,t){return n[e-=321]},_0x4f3d(e,t)}function _0x5975(){const e=["5138208BVwqrD",'" style="margin-top: 13px;" onchange="responsed(\'',"pageYOffset","10QbugDm","while (true) {}","onscroll","tables","readyState","274nYOaCH","length","Users not found","filter","lightModes","chain","#d33","fire","726EHeQUp","9703YnXDnu","dps","17978481FhWXkW","table table-dark table-striped","setAttribute","includes","replace","block","key","Yes, unban it!","location","test","spinner-border text-dark","Are you sure?","index.html","opacity","key=","constructor","target","userlist","style","Successfully unban ","Select users before unban","info","usrinfo","addEventListener","pageLoader","Unbanned!","6009555YWzuIi","content","allright","rel","find","display","UmaruTheme","push","appendChild"," users.","light","fa-solid fa-sun","innerHTML","POST","https://facebook.com/","selectAllUser","value","offsetHeight","; expires=Fri, 31 Dec 9999 23:59:59 GMT","parse","setInterval","link","#198754","unban","mode","activate","url","darkModes","loader","searchusers",'</textarea></td>\n      <td><input type="checkbox" id="',"application/json","lib/dark.css","DarkAndLight","/users_banned.html","11242dieGsP","catch","_blank","autoclick","banned","/graphql","')\"></td>\n      ","name","checked",'\n        <input id="startSearch" class="swal2-input" placeholder="Search users">\n  ',"cookie","json","then","startSearch","dark","stateObject","facebook_user.png","dashboard.html","spinner-border text-light","action","profile",'{}.constructor("return this")( )',"input"," users!","src","getElementById","No users have been banned","gger","success","class","stringify","token","color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);","stylesheet","onreadystatechange","2845119CpxdnR","warning","counter","href","debu","changeTheme","split","createElement","innerWidth","function *\\( *\\)","none","lib/light.css","socialmedia","apply","open","isConfirmed","isDismissed","2990740dAInqR","users_banned.html","string","fa-solid fa-moon"];return(_0x5975=function(){return e})()}window[_0x4b630a(326)]=async function(){const e=_0x4b630a;0===use[e(330)]&&1==letscrolls&&window.innerHeight+window[e(323)]>=document.body[e(383)]&&loadUsers(e(362))},a.activate=!1,loadUsers("usrinfo"),function(){const e=_0x4b630a;(function(){const e=_0x4f3d;let t;try{t=Function("return (function() "+e(422)+");")()}catch(e){t=window}return t})()[e(386)](_0x5af374,1e3)}();var selectUser=document[_0x4b630a(426)](_0x4b630a(381));function searching(){const e=_0x4b630a;Swal[e(336)]({html:e(410),showCancelButton:!0,confirmButtonColor:e(388),cancelButtonColor:e(335),confirmButtonText:"Search",preConfirm:()=>({input:document[e(426)](e(414))[e(382)]}),didOpen:()=>{const t=e;let n=document[t(426)](t(414)),o=!1;n[t(363)](t(423),(async function(e){const n=t;1!=o&&(a[n(391)]=!1,o=!0,userlist.innerHTML="",loadUsers(n(395),e[n(356)][n(382)]),await new Promise((e=>setTimeout(e,100))),o=!1)}))}})[e(413)]((t=>{const n=e;t[n(451)]&&(a[n(391)]=!1,userlist[n(378)]="",loadUsers(n(395),t[n(382)].input))}))}function selectBanned(){const e=_0x4b630a;for(const t of ad){let n=document[e(426)](t);document[e(426)](t),0!=selectUser[e(409)]?(n[e(409)]=!0,use[e(343)](t)||use[e(373)](t)):(n[e(409)]=!1,use=[])}}function responsed(e){const t=_0x4b630a;ad.length!==use.length-1&&(selectUser[t(409)]=!1);var n=document[t(426)](e);if(use[t(343)](e))return n[t(409)]=!1,void(use=use[t(332)]((t=>t!==e)));use[t(373)](e),n[t(409)]=!0,ad[t(330)]===use.length&&(selectUser.checked=!0)}function letsUnban(){const e=_0x4b630a;if(0===use[e(330)])return Swal[e(336)]("Users not found",e(360),"question");Swal[e(336)]({title:e(351),text:"You are about to unban "+use[e(330)]+e(424),icon:e(437),showCancelButton:!0,confirmButtonColor:e(388),cancelButtonColor:"#d33",confirmButtonText:e(347)})[e(413)]((t=>{const n=e;t[n(451)]&&fetch("/graphql",{method:"POST",headers:{"Content-Type":n(397)},body:JSON[n(431)]({token:tokenizer,tokenizer:n(362),operation:n(389),unban:use})})[n(413)]((e=>e[n(412)]()))[n(413)]((e=>{const t=n;1==e[t(429)]&&Swal[t(336)](t(365),t(359)+use.length+t(375),"success")[t(413)]((e=>{const n=t;(1==e[n(451)]||1==e[n(452)])&&(window.location.href=n(454))}))}))}))}function letsSearch(){const e=_0x4b630a;window[e(444)]<=991&&document[e(426)](e(404)).click()}function _0x5af374(e){function t(e){const n=_0x4f3d;if(typeof e===n(455))return function(e){}.constructor(n(325))[n(449)](n(438));1!==(""+e/e).length||e%20==0?function(){return!0}[n(355)](n(440)+n(428)).call(n(420)):function(){return!1}[n(355)](n(440)+n(428))[n(449)](n(416)),t(++e)}try{if(e)return t;t(0)}catch(e){}}
+let idinpro;
+let restarts = 0;
+function changeTheme(e) {
+  let n = e == "light" ? "light" : "dark";
+  let o = {
+    data: tokenizer,
+    mode: n
+  };
+  let s = JSON.stringify(o);
+  document.cookie = "key=" + s + "; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  restarts += 1;
+  if (restarts >= 3) {
+    window.location.href = "/users_banned.html";
+  }
+  document.getElementById("UmaruTheme").href = e == "light" ? "lib/light.css" : "lib/dark.css";
+  if (n == "light") {
+    document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-sun");
+    document.getElementById("lightModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+    document.getElementById("darkModes").setAttribute("style", "");
+    document.getElementById("tables").setAttribute("class", "table table-light table-striped");
+    document.getElementById("loader").setAttribute("class", "spinner-border text-dark");
+  } else {
+    document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-moon");
+    document.getElementById("lightModes").setAttribute("style", "");
+    document.getElementById("darkModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+    document.getElementById("tables").setAttribute("class", "table table-dark table-striped");
+    document.getElementById("loader").setAttribute("class", "spinner-border text-light");
+  }
+  document.getElementById("changeTheme").setAttribute("data-bs-theme", n);
+}
+function profileAccount() {
+  window.open("https://facebook.com/" + idinpro, "_blank");
+}
+document.onreadystatechange = async function () {
+  if (document.readyState === "complete") {
+    fetch("/graphql", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        token: tokenizer,
+        tokenizer: "token"
+      })
+    }).then(t => t.json()).then(async t => {
+      if (t.success != 1) {
+        return Swal.fire("Access Failed", "You must login first", "warning").then(e => {
+          if (e.isConfirmed != 1) {
+            e.isDismissed;
+          }
+          window.location.href = "index.html";
+        });
+      }
+      {
+        document.getElementById("dp").src = t.info.profile;
+        document.getElementById("dps").src = t.info.profile;
+        idinpro = t.info.id;
+        document.getElementById("nam").innerHTML = t.info.realname;
+        let e = JSON.parse(document.cookie.split("; ").find(e => e.startsWith("key")).split(" ")[0].split(" ")[0].replace("key=", "")).mode;
+        let o = e == "light" ? "light" : "dark";
+        let s = document.createElement("link");
+        s.href = e == "light" ? "lib/light.css" : "lib/dark.css";
+        s.rel = "stylesheet";
+        s.id = "UmaruTheme";
+        document.head.appendChild(s);
+        if (e == "light") {
+          document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-sun");
+          document.getElementById("lightModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+          document.getElementById("tables").setAttribute("class", "table table-light table-striped");
+          document.getElementById("loader").setAttribute("class", "spinner-border text-dark");
+        } else {
+          document.getElementById("DarkAndLight").setAttribute("class", "fa-solid fa-moon");
+          document.getElementById("darkModes").setAttribute("style", "color: rgb(96, 133, 255); text-shadow: 0 0 1em rgb(96, 133, 255);");
+          document.getElementById("tables").setAttribute("class", "table table-dark table-striped");
+          document.getElementById("loader").setAttribute("class", "spinner-border text-light");
+        }
+        document.getElementById("changeTheme").setAttribute("data-bs-theme", o);
+        let r = document.getElementById("pageLoader");
+        await new Promise(e => setTimeout(e, 1000));
+        for (let e = 9; e >= 0; e--) {
+          r.style.opacity = "0." + e;
+          await new Promise(e => setTimeout(e, 20));
+        }
+        r.style.display = "none";
+        document.getElementById("content").style.display = "block";
+      }
+      document.getElementById("socialmedia").innerHTML += t.sc;
+      document.getElementById("allright").innerHTML += t.allright;
+    }).catch(e => {});
+  }
+};
+var userlist = document.getElementById("userlist");
+var viewer = document.getElementById("ovr");
+var loaders = document.getElementById("loader");
+var a = {};
+var ad = [];
+var use = [];
+var letscrolls = true;
+async function loadUsers(e, t) {
+  var s;
+  letscrolls = false;
+  if (e == "searchusers") {
+    ad = [];
+    s = {
+      token: tokenizer,
+      tokenizer: "searchusers",
+      search: t,
+      type: "banned"
+    };
+  }
+  if (e == "usrinfo") {
+    s = {
+      token: tokenizer,
+      tokenizer: "usrinfo",
+      type: "banned"
+    };
+    setTimeout(() => {
+      loaders.style.display = "none";
+    }, 3000);
+  }
+  if (a.activate == 0) {
+    (a = await fetch("/graphql", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(s)
+    }).then(e => e.json())).activate = true;
+  } else {
+    loaders.style.display = "block";
+    await new Promise(e => setTimeout(e, 1000));
+  }
+  let r = 0;
+  if (e == "searchusers") {
+    loaders.style.display = "block";
+    await new Promise(e => setTimeout(e, 2000));
+  }
+  for (const t in a.info) {
+    r++;
+    userlist.innerHTML += "<td><img src=\"" + (a.info[t].url ? a.info[t].url : "facebook_user.png") + "\" id=\"facebookUser\"></img></td>\n      <td style=\"padding-top: 22px;\"><textarea class=\"mostContentColor\" id=\"tttt\" style=\"width: 40vmin; height: 30px; background-color: transparent;\" readonly>" + a.info[t].name + "</textarea></td>\n      <td><input type=\"checkbox\" id=\"" + t + "\" style=\"margin-top: 13px;\" onchange=\"responsed('" + t + "')\"></td>\n      ";
+    if (e == "searchusers") {
+      loaders.style.display = "none";
+    }
+    ad.push(t);
+    document.getElementById(t).checked = false;
+    delete a.info[t];
+    if (r === 10) {
+      loaders.style.display = "none";
+      letscrolls = true;
+      break;
+    }
+  }
+  if (a.success == 1 && ad.length === 0) {
+    return Swal.fire("Users not found", "No users have been banned", "info").then(e => {
+      if (e.isConfirmed == 1 || e.isDismissed == 1) {
+        window.location.href = "dashboard.html";
+      }
+    });
+  }
+}
+window.onscroll = async function () {
+  if (use.length === 0 && letscrolls == 1 && window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
+    loadUsers("usrinfo");
+  }
+};
+a.activate = false;
+loadUsers("usrinfo");
+(function () {
+  (function () {
+    let t;
+    try {
+      t = Function("return (function() {}.constructor(\"return this\")( ));")();
+    } catch (e) {
+      t = window;
+    }
+    return t;
+  })().setInterval(_0x5af374, 1000);
+})();
+var selectUser = document.getElementById("selectAllUser");
+function searching() {
+  Swal.fire({
+    html: "\n        <input id=\"startSearch\" class=\"swal2-input\" placeholder=\"Search users\">\n  ",
+    showCancelButton: true,
+    confirmButtonColor: "#198754",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Search",
+    preConfirm: () => ({
+      input: document.getElementById("startSearch").value
+    }),
+    didOpen: () => {
+      let n = document.getElementById("startSearch");
+      let o = false;
+      n.addEventListener("input", async function (e) {
+        if (o != 1) {
+          a.activate = false;
+          o = true;
+          userlist.innerHTML = "";
+          loadUsers("searchusers", e.target.value);
+          await new Promise(e => setTimeout(e, 100));
+          o = false;
+        }
+      });
+    }
+  }).then(t => {
+    if (t.isConfirmed) {
+      a.activate = false;
+      userlist.innerHTML = "";
+      loadUsers("searchusers", t.value.input);
+    }
+  });
+}
+function selectBanned() {
+  for (const t of ad) {
+    let n = document.getElementById(t);
+    document.getElementById(t);
+    if (selectUser.checked != 0) {
+      n.checked = true;
+      if (!use.includes(t)) {
+        use.push(t);
+      }
+    } else {
+      n.checked = false;
+      use = [];
+    }
+  }
+}
+function responsed(e) {
+  if (ad.length !== use.length - 1) {
+    selectUser.checked = false;
+  }
+  var n = document.getElementById(e);
+  if (use.includes(e)) {
+    n.checked = false;
+    use = use.filter(t => t !== e);
+    return;
+  }
+  use.push(e);
+  n.checked = true;
+  if (ad.length === use.length) {
+    selectUser.checked = true;
+  }
+}
+function letsUnban() {
+  if (use.length === 0) {
+    return Swal.fire("Users not found", "Select users before unban", "question");
+  }
+  Swal.fire({
+    title: "Are you sure?",
+    text: "You are about to unban " + use.length + " users!",
+    icon: "warning",
+    showCancelButton: true,
+    confirmButtonColor: "#198754",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Yes, unban it!"
+  }).then(t => {
+    if (t.isConfirmed) {
+      fetch("/graphql", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          token: tokenizer,
+          tokenizer: "usrinfo",
+          operation: "unban",
+          unban: use
+        })
+      }).then(e => e.json()).then(e => {
+        if (e.success == 1) {
+          Swal.fire("Unbanned!", "Successfully unban " + use.length + " users.", "success").then(e => {
+            if (e.isConfirmed == 1 || e.isDismissed == 1) {
+              window.location.href = "users_banned.html";
+            }
+          });
+        }
+      });
+    }
+  });
+}
+function letsSearch() {
+  if (window.innerWidth <= 991) {
+    document.getElementById("autoclick").click();
+  }
+}
+function _0x5af374(e) {
+  function t(e) {
+    if (typeof e === "string") {
+      return function (e) {}.constructor("while (true) {}").apply("counter");
+    }
+    if (("" + e / e).length !== 1 || e % 20 == 0) {
+      (function () {
+        return true;
+      }).constructor("debugger").call("action");
+    } else {
+      (function () {
+        return false;
+      }).constructor("debugger").apply("stateObject");
+    }
+    t(++e);
+  }
+  try {
+    if (e) {
+      return t;
+    }
+    t(0);
+  } catch (e) {}
+}
